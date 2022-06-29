@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
+import AboutMe from '../../components/AboutMe/AboutMe';
+import ProjectSummary from '../../components/ProjectSummary/ProjectSummary';
 
 export default function Home() {
   return (
+    <div>
       <div>
-          <div>
-            <h1 className="text-black">
-              Mira Kinebuchi
-            </h1>
-          </div>
+        <h1 className="text-black">
+          <AboutMe />
+          <ProjectSummary />
+        </h1>
       </div>
-  )
+    </div>
+  );
 }
