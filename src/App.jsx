@@ -11,9 +11,6 @@ export default function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        {/* <Route exact path="/project/1">
-          <Project1 />
-        </Route> */}
       </Switch>
     </Router>
   );

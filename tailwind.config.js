@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'landing-image': "url('/assets/temp-sky.jpg')",
+        'landing-image': "url('./assets/temp-sky.jpg')",
       },
     },
   },

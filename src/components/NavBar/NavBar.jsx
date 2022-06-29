@@ -101,25 +101,25 @@ export default function NavBar() {
         <div class=" flex flex-col md:flex-row justify-center md:space-y-0 my-4 space-y-4  text-center text-gray-500">
           <a
             href="/MarketPlace_AisModa/cart"
-            class="mx-8 hover:text-red-900 active"
+            class="mx-8 hover:text-blue-900 active"
             aria-current="page"
           >
             {' '}
             Contact{' '}
           </a>
-          <a href="#" class="mx-8 hover:text-red-900">
+          <a href="#" class="mx-8 hover:text-blue-900">
             {' '}
             About Me{' '}
           </a>
-          <a href="#" class="mx-8 hover:text-red-900">
+          <a href="#" class="mx-8 hover:text-blue-900">
             {' '}
             Projects
           </a>
-          <a href="#" class="mx-8 hover:text-red-900">
+          <a href="#" class="mx-8 hover:text-blue-900">
             {' '}
             Art/Poetry{' '}
           </a>
-          <a href="#" class="mx-8 hover:text-red-900">
+          <a href="#" class="mx-8 hover:text-blue-900">
             {' '}
             Experience
           </a>
