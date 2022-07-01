@@ -97,7 +97,7 @@ export default function NavBar() {
           </div>
         </div>
       </div>
-      <nav id="bar" class="flex justify-center ">
+      <nav id="bar" class="flex justify-center">
         <div class=" flex flex-col md:flex-row justify-center md:space-y-0 my-4 space-y-4  text-center text-gray-500">
           <a
             href="/MarketPlace_AisModa/cart"
