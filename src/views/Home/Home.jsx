@@ -2,6 +2,7 @@ import React from 'react';
 import AboutMe from '../../components/AboutMe/AboutMe';
 import Landing from '../../components/Landing/Landing';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Landing />
       <AboutMe />
       <Projects />
+      <Contact />
     </div>
   );
 }
