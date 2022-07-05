@@ -1,23 +1,27 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './views/Home/Home';
+import Project1 from './views/ProjectDetails/Project1';
+import Project2 from './views/ProjectDetails/Project2';
+import Project3 from './views/ProjectDetails/Project3';
 import './App.css'; /* Global CSS */
-import styles from './App.module.css'; /* CSS Modules */
 
 export default function App() {
   return (
-    <h1
-      className={`
-      bg-green-400
-        text-3xl
-        text-center
-      text-white
-        font-bold
-        p-10
-        w-1/2
-        mx-auto
-        mt-10
-        ${styles.myCustomCssClass}
-      `}
-    >
-      Hello, World!
-    </h1>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/project1">
+          <Project1 />
+        </Route>
+        <Route exact path="/project2">
+          <Project2 />
+        </Route>
+        <Route exact path="/project3">
+          <Project3 />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
