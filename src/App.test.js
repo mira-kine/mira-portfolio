@@ -6,4 +6,3 @@ test.skip('renders learn react link', async () => {
   const linkElement = await screen.findByText(/Mira/i);
   expect(linkElement).toBeInTheDocument();
 });
-Footer;
