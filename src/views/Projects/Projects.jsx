@@ -6,25 +6,31 @@ export default function Projects() {
       <div class="h-screen w-screen flex justify-center items-center bg-slate-900 overflow-hidden">
         <div class="grid grid-cols-6 col-span-2   gap-2  ">
           <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
-            <img
-              class="h-full w-full object-cover "
-              src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
-              alt=""
-            />
+            <a href="/project1">
+              <img
+                class="h-full w-full object-cover"
+                src={require('../../../public/assets/unspoken.jpg')}
+                alt=""
+              />
+            </a>
           </div>
           <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
-            <img
-              class="h-full w-full object-cover  "
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80"
-              alt=""
-            />
+            <a href="/project2">
+              <img
+                class="h-full w-full object-cover"
+                src={require('../../../public/assets/goodjob.jpg')}
+                alt=""
+              />
+            </a>
           </div>
           <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
-            <img
-              class="h-full w-full object-cover "
-              src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              alt=""
-            />
+            <a href="/project3">
+              <img
+                class="h-full w-full object-cover "
+                src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                alt=""
+              />
+            </a>
           </div>
           <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
             <img
