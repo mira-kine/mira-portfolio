@@ -6,7 +6,7 @@ import Contact from '../Contact/Contact';
 
 export default function Home() {
   return (
-    <div className="snap-y snap-mandatory h-screen w-screen">
+    <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
       <Landing />
       <AboutMe />
       <Projects />

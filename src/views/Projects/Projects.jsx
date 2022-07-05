@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div className="h-screen">
-      <div class="h-screen w-screen flex justify-center items-center bg-slate-900 ">
+    <div className="snap-start flex flex-col h-screen w-screen overflow-hidden">
+      <div class="h-screen w-screen flex justify-center items-center bg-slate-900 overflow-hidden">
         <div class="grid grid-cols-6 col-span-2   gap-2  ">
           <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
             <img

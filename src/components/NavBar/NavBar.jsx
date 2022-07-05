@@ -3,7 +3,7 @@ import React from 'react';
 export default function NavBar() {
   return (
     <div class="border-b-2 shadow-md border-gray-100 pb-5">
-      <div class="max-w-7xl mx-auto my-5 px-4 sm:px-6 ">
+      <div class="max-w-7xl mx-auto my-3 px-3 sm:px-6 ">
         <div class="flex flex-col-reverse md:flex-row min-w-full py-6 space-y-8 justify-center md:justify-between  md:space-x-10">
           <div class="flex justify-around">
             <div class="flex justify-end ">
@@ -98,7 +98,7 @@ export default function NavBar() {
         </div>
       </div>
       <nav id="bar" class="flex justify-center">
-        <div class=" flex flex-col md:flex-row justify-center md:space-y-0 my-4 space-y-4  text-center text-gray-500">
+        <div class=" flex flex-col md:flex-row justify-center md:space-y-0 my-2 space-y-4  text-center text-gray-500">
           <a
             href="/MarketPlace_AisModa/cart"
             class="mx-8 hover:text-blue-900 active"

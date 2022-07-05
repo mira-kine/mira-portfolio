@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'landing-image': "url('./assets/temp-sky.jpg')",
+        landing: "url('../public/assets/temp-sky.jpg')",
+        sunflower: "url('../public/assets/sunflower-pc.jpg')",
+        headshot: "url('../public/assets/headshot_mira.jpg')",
       },
     },
   },
