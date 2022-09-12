@@ -3,7 +3,7 @@ import NavBar from '../NavBar/NavBar';
 
 export default function Landing() {
   return (
-    <div className="snap-start flex flex-col h-screen overflow-hidden">
+    <div className="flex flex-col h-screen overflow-hidden">
       <NavBar />
       <div class="bg-white h-full">
         {/* add cute hellow gif here */}

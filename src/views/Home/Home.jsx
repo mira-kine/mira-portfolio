@@ -6,7 +6,7 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 
 export default function Home() {
   return (
-    <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
+    <div className="h-screen w-screen overflow-scroll">
       <Landing />
       <AboutMe />
       <Projects />

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutMe() {
   return (
-    <div class="snap-start h-screen container mx-auto py-9 md:py-12 lg:py-24 overflow-hidden">
+    <div class="h-screen container mx-auto py-9 md:py-12 lg:py-24 overflow-hidden">
       <div class="flex flex-col lg:flex-row justify-center items-center mx-4">
         <div class="lg:w-4/12 flex justify-center items-center">
           <div>
