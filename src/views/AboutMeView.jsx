@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar/NavBar';
 
 export default function AboutMeView() {
   return (
-    <div className="snap-start flex flex-col h-screen w-screen overflow-hidden bg-slate">
+    <div className="flex flex-col h-screen w-screen overflow-hidden bg-slate">
       <NavBar />
       {/* <div class="container min-w-full">
         <div class="grid grid-cols-1 md:grid-cols-2 justify-center items-start">
