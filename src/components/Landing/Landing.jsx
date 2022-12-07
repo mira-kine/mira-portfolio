@@ -6,7 +6,6 @@ export default function Landing() {
   return (
     <div className="snap-center flex flex-col h-screen">
       <NavBar />
-      {/* <div class="flex flex-col bg-white h-full"> */}
       {/* add cute hellow gif here */}
       <div class="bg-pink h-full w-full">
         <h1 className="text-9xl tracking-wide text-white">Mira Kinebuchi</h1>
@@ -15,6 +14,5 @@ export default function Landing() {
         </h1>
       </div>
     </div>
-    // </div>
   );
 }
