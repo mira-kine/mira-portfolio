@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 export default function NavBar() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
   return (
     <div className="border-b-2 shadow-md border-gray-100 pb-5">
       <div className="max-w-7xl mx-auto my-3 px-3 sm:px-6 ">
@@ -107,38 +106,54 @@ export default function NavBar() {
       </div>
       <div id="bar" className="flex justify-center hidden md:flex">
         <div className=" flex flex-col md:flex-row justify-center md:space-y-0 my-2 space-y-4 text-center text-gray-500">
-          <a
-            href="/"
-            className="mx-8 hover:text-blue-900 active"
-            aria-current="page"
-          >
-            {' '}
-            Home{' '}
-          </a>
-          <a
-            href="/contact"
-            className="mx-8 hover:text-blue-900 active"
-            aria-current="page"
-          >
-            {' '}
-            Contact{' '}
-          </a>
-          <a href="/aboutme" className="mx-8 hover:text-blue-900">
-            {' '}
-            About Me{' '}
-          </a>
-          <a href="/projects" className="mx-8 hover:text-blue-900">
-            {' '}
-            Projects
-          </a>
-          <a href="#" className="mx-8 hover:text-blue-900">
-            {' '}
-            Art/Poetry{' '}
-          </a>
-          <a href="#" className="mx-8 hover:text-blue-900">
-            {' '}
-            Experience
-          </a>
+          <ul className="hidden md:flex">
+            <li>
+              <Link
+                to="home"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                offset={-100}
+                duration={500}
+                className="mx-8 hover:text-blue-900"
+              >
+                Home
+              </Link>
+              <Link
+                to="about-me"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                offset={-100}
+                duration={500}
+                className="mx-8 hover:text-blue-900"
+              >
+                About Me
+              </Link>
+              <Link
+                to="projects"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                offset={-100}
+                duration={500}
+                className="mx-8 hover:text-blue-900"
+              >
+                Projects
+              </Link>
+              <Link
+                to="contact"
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                offset={-100}
+                duration={500}
+                className="mx-8 hover:text-blue-900"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

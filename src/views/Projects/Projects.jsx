@@ -5,6 +5,7 @@ export default function Projects() {
     <div
       aria-label="main-container"
       className="snap-center flex h-screen w-screen"
+      name="projects"
     >
       <div
         aria-label="left-screen-container"

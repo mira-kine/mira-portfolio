@@ -1,14 +1,12 @@
 import React from 'react';
-import AboutMe from '../AboutMe/AboutMe';
-import NavBar from '../NavBar/NavBar';
 
 export default function Landing() {
   return (
     <div
       aria-label="main-container"
       className="snap-center flex flex-col h-screen"
+      name="home"
     >
-      <NavBar />
       {/* add cute hellow gif here */}
       <div
         aria-label="title-container"
