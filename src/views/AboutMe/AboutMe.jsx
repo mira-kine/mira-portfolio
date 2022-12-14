@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div
-      className="snap-center flex flex-col h-screen bg-sunflower"
+      className="snap-center flex flex-col h-screen scroll-mt-0.5"
       name="about-me"
     >
       <div className="h-full sm:min-w-fit">

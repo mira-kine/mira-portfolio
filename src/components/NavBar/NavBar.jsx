@@ -113,8 +113,8 @@ export default function NavBar() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={-100}
-                duration={500}
+                offset={0}
+                duration={650}
                 className="mx-8 hover:text-blue-900"
               >
                 Home
@@ -124,8 +124,8 @@ export default function NavBar() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={-100}
-                duration={500}
+                offset={0}
+                duration={650}
                 className="mx-8 hover:text-blue-900"
               >
                 About Me
@@ -135,8 +135,8 @@ export default function NavBar() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={-100}
-                duration={500}
+                offset={0}
+                duration={650}
                 className="mx-8 hover:text-blue-900"
               >
                 Projects
@@ -146,8 +146,8 @@ export default function NavBar() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={-100}
-                duration={500}
+                offset={0}
+                duration={650}
                 className="mx-8 hover:text-blue-900"
               >
                 Contact
