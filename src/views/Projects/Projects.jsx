@@ -2,51 +2,37 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div className="snap-center flex flex-col h-screen w-screen overflow-hidden">
-      <div class="h-screen w-screen flex justify-center items-center bg-sapphire overflow-hidden">
-        <div class="grid grid-cols-6 col-span-2   gap-2  ">
-          <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
-            <a href="/project1">
-              <img
-                class="h-full w-full object-cover"
-                src={require('../../../public/assets/unspoken.jpg')}
-                alt=""
-              />
-            </a>
-          </div>
-          <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
-            <a href="/project2">
-              <img
-                class="h-full w-full object-cover"
-                src={require('../../../public/assets/goodjob.jpg')}
-                alt=""
-              />
-            </a>
-          </div>
-          <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
-            <a href="/project3">
-              <img
-                class="h-full w-full object-cover "
-                src={require('../../../public/assets/yearbook.png')}
-                alt=""
-              />
-            </a>
-          </div>
-          <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
-            <img
-              class="h-full w-full object-cover "
-              src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-              alt=""
-            />
-          </div>
-          <div class="relative overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
-            <div class="text-white text-xl absolute inset-0  bg-slate-900/80 flex justify-center items-center"></div>
-            <img
-              class="h-full w-full object-cover "
-              src="https://images.unsplash.com/photo-1560393464-5c69a73c5770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
-              alt=""
-            />
-          </div>
+    <div
+      aria-label="main-container"
+      className="snap-center flex h-screen w-screen"
+      name="projects"
+    >
+      <div
+        aria-label="left-screen-container"
+        className="flex flex-col py-5 px-5 w-2/5 border border-solid border-charcoal border-2
+        "
+      >
+        <div
+          aria-label="left-text-container"
+          className="border border-solid border-charcoal border-2"
+        >
+          <p>
+            I am a full stack software developer who cares about people and
+            their stories. My background in mental health & biopsychology helps
+            me stay grounded in human connection and user experience while
+            pursuing accessibility, equity and soulfulness in the digital world.
+          </p>
+        </div>
+      </div>
+      <div
+        aria-label="right-screen-container"
+        className="flex py-5 px-5 bg-pink w-3/5 border border-solid border-charcoal border-2"
+      >
+        <div
+          aria-label="right-timeline-container"
+          className="border border-solid border-charcoal border-2 h-1/4 md:min-w-fit w-full"
+        >
+          Right container for projects timeline
         </div>
       </div>
     </div>

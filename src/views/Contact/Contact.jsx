@@ -1,11 +1,13 @@
 import React from 'react';
-import NavBar from '../../components/NavBar/NavBar';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 export default function Contact() {
   return (
-    <div className="flex flex-col h-screen w-screen overflow-hidden">
-      <NavBar />
-      <h1>Mira Kinebuchi</h1>
+    <div
+      className="snap-center flex flex-col h-screen overflow-hidden"
+      name="contact"
+    >
+      <ContactForm />
     </div>
   );
 }
