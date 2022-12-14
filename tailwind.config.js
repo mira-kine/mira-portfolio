@@ -7,6 +7,7 @@ module.exports = {
         sunflower: "url('/public/assets/sunflower-pc.jpg')",
         headshot: "url('/public/assets/headshot_mira.jpg')",
         goodjob: "url('/public/assets/goodjob-gif.gif')",
+        grumpy: "url('/public/assets/grumpy.webp')",
       },
     },
     colors: {

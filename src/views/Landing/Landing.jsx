@@ -10,11 +10,16 @@ export default function Landing() {
       {/* add cute hellow gif here */}
       <div
         aria-label="title-container"
-        className="bg-pink h-full w-full flex flex-col justify-center content-center items-center "
+        className="bg-grumpy bg-cover h-full w-full flex flex-col justify-center content-center items-center z-0"
       >
-        <div aria-label="name-container" className="bg-charcoal py-8 px-8">
-          <h1 className="text-9xl tracking-wide text-white">Mira Kinebuchi</h1>
-          <h1 className="text-6xl tracking-wide text-white">
+        <div
+          aria-label="name-container"
+          className="bg-white opacity-40 py-8 px-8 z-10"
+        >
+          <h1 className="text-9xl tracking-wide text-charcoal z-20">
+            Mira Kinebuchi
+          </h1>
+          <h1 className="text-6xl tracking-wide text-charcoal z-20">
             Software Developer
           </h1>
         </div>

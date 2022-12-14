@@ -1,8 +1,8 @@
 import './App.css'; /* Global CSS */
 import NavBar from './components/NavBar/NavBar';
-import AboutMe from './components/AboutMe/AboutMe';
+import AboutMe from './views/AboutMe/AboutMe';
 import Projects from './views/Projects/Projects';
-import ContactForm from './components/ContactForm/ContactForm';
+import Contact from './views/Contact/Contact';
 import Landing from './views/Landing/Landing';
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
               <Landing />
               <AboutMe />
               <Projects />
-              <ContactForm />
+              <Contact />
             </div>
           </div>
         </div>
