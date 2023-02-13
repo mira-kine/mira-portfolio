@@ -16,7 +16,7 @@ export default function Projects() {
         <div aria-label="left-text-container" className=" px-5 m-3">
           <p>
             Here are my projects! Click on the image to see a deployed version
-            of my app. More to come :)
+            of my app. More to come...
           </p>
         </div>
       </div>
