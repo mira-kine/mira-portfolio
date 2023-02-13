@@ -8,6 +8,7 @@ module.exports = {
         headshot: "url('/public/assets/headshot_mira.jpg')",
         goodjob: "url('/public/assets/goodjob-gif.gif')",
         grumpy: "url('/public/assets/grumpy.webp')",
+        tempsky: "url('/public/assets/temp-sky.jpg')",
       },
     },
     colors: {
