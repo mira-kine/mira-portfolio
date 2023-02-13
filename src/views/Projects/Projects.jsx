@@ -15,10 +15,8 @@ export default function Projects() {
       >
         <div aria-label="left-text-container" className=" px-5 m-3">
           <p>
-            I am a full stack software developer who cares about people and
-            their stories. My background in mental health & biopsychology helps
-            me stay grounded in human connection and user experience while
-            pursuing accessibility, equity and soulfulness in the digital world.
+            Here are my projects! Click on the image to see a deployed version
+            of my app. More to come :)
           </p>
         </div>
       </div>
