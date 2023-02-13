@@ -115,7 +115,7 @@ export default function NavBar() {
                 spy={true}
                 offset={0}
                 duration={650}
-                className="mx-8 hover:text-blue-900"
+                className="mx-8 hover:text-blue-900 cursor-pointer"
               >
                 Home
               </Link>
@@ -126,7 +126,7 @@ export default function NavBar() {
                 spy={true}
                 offset={0}
                 duration={650}
-                className="mx-8 hover:text-blue-900"
+                className="mx-8 hover:text-blue-900 cursor-pointer"
               >
                 About Me
               </Link>
@@ -137,7 +137,7 @@ export default function NavBar() {
                 spy={true}
                 offset={0}
                 duration={650}
-                className="mx-8 hover:text-blue-900"
+                className="mx-8 hover:text-blue-900 cursor-pointer"
               >
                 Projects
               </Link>
@@ -148,7 +148,7 @@ export default function NavBar() {
                 spy={true}
                 offset={0}
                 duration={650}
-                className="mx-8 hover:text-blue-900"
+                className="mx-8 hover:text-blue-900 cursor-pointer"
               >
                 Contact
               </Link>
