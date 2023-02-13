@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
@@ -9,13 +10,10 @@ export default function Projects() {
     >
       <div
         aria-label="left-screen-container"
-        className="flex flex-col py-5 px-5 w-3/5 border border-solid border-charcoal border-2 align-center justify-center
-        "
+        className="flex flex-col py-5 px-5 w-3/5 align-center justify-center
+        border-r-2"
       >
-        <div
-          aria-label="left-text-container"
-          className="border border-solid border-charcoal border-2 px-5 m-3"
-        >
+        <div aria-label="left-text-container" className=" px-5 m-3">
           <p>
             I am a full stack software developer who cares about people and
             their stories. My background in mental health & biopsychology helps
@@ -45,6 +43,9 @@ export default function Projects() {
             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
+            <a href="https://tomoiru-web.netlify.app/">
+              <img src="../assets/tomo1.png" className="sm:flex" />
+            </a>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
               Tomoiru-Web
             </h3>
@@ -77,6 +78,9 @@ export default function Projects() {
             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
+            <a href="https://tcl-45-smart-shopping-list.firebaseapp.com/">
+              <img src="../assets/shop-ade.jpg" className="sm:flex" />
+            </a>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
               ShopAde
             </h3>
@@ -109,6 +113,9 @@ export default function Projects() {
             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
+            <a href="https://goodjob.dev/">
+              <img src="../assets/goodjob-ss.png" className="sm:flex" />
+            </a>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
               GoodJob
             </h3>
@@ -141,6 +148,9 @@ export default function Projects() {
             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
+            <a href="alchemyyearbook.netlify.app/">
+              <img src="../assets/yearbook.png" className="sm:flex" />
+            </a>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
               Yearbook App
             </h3>
@@ -173,6 +183,9 @@ export default function Projects() {
             <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
+            <a href="https://unspokenstories.netlify.app/">
+              <img src="../assets/unspoken.jpg" className="sm:flex" />
+            </a>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
               Unspoken
             </h3>
