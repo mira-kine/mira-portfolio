@@ -14,12 +14,12 @@ export default function Landing() {
       >
         <div
           aria-label="name-container"
-          className="bg-white opacity-40 py-8 px-8 z-10"
+          className="bg-white opacity-40 py-8 px-8 z-10 w-2/3 text-center"
         >
-          <h1 className="text-9xl tracking-wide text-charcoal z-20">
+          <h1 className="text-4xl sm:text-6xl lg:text-8xl tracking-wide text-charcoal z-20">
             Mira Kinebuchi
           </h1>
-          <h1 className="text-6xl tracking-wide text-charcoal z-20">
+          <h1 className="text-2xl sm:text-4xl lg:text-6xl tracking-wide text-charcoal z-20">
             Software Developer
           </h1>
         </div>

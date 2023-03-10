@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div
-      className="snap-center flex flex-col h-screen scroll-mt-0.5 h-screen w-screen"
+      className="snap-center flex h-screen scroll-mt-0.5 h-screen w-screen"
       name="about-me"
     >
       <div
@@ -20,12 +20,13 @@ export default function AboutMe() {
           className="bg-white opacity-70 h-fit sm:w-7/12 md:w-7/12 mt-1 ml-20 lg:mt-5 p-10"
         >
           <p className="dark:text-gray-300 text-3xl leading-normal text-charcoal">
-            Full stack software developer who cares about people and their
-            stories. My background in mental health & biopsychology helps me
-            stay grounded in human connection and user experience while pursuing
-            accessibility, equity and soulfulness in the digital world.{' '}
+            I am a full stack software developer who cares about people and
+            their stories. My background in mental health & biopsychology helps
+            me stay grounded in human connection and user experience while
+            pursuing accessibility, equity and soulfulness in the digital world.{' '}
           </p>
         </div>
+        <div className="bg-pink">testing</div>
       </div>
     </div>
   );
