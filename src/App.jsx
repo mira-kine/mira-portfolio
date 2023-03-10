@@ -13,7 +13,7 @@ export default function App() {
         <NavBar />
         <div className="scroll-container">
           <div className="content">
-            <div className="gallery snap-mandatory snap-y">
+            <div className="gallery snap-mandatory snap-y h-screen w-screen">
               <Landing />
               <AboutMe />
               <Projects />

@@ -4,13 +4,13 @@ export default function Landing() {
   return (
     <div
       aria-label="main-container"
-      className="snap-center flex flex-col h-screen"
+      className="snap-center flex flex-col h-3/5 w-full"
       name="home"
     >
       {/* add cute hellow gif here */}
       <div
         aria-label="title-container"
-        className="bg-grumpy bg-cover h-full w-full flex flex-col justify-center content-center items-center z-0"
+        className="bg-grumpy bg-cover bg-no-repeat bg-center flex flex-col justify-center content-center items-center z-0 h-full"
       >
         <div
           aria-label="name-container"
