@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
@@ -25,7 +24,7 @@ export default function Projects() {
       </div>
       <div className="flex items-center align-center justify-center h-full overflow-scroll overflow-x-scroll">
         <ol class="items-center sm:flex overflow-scroll overflow-x-scroll m-6 h-3/4 sm:h-full">
-          <li class="relative mb-6 sm:mb-0">
+          <div class="relative mb-6 sm:mb-0">
             <div class="flex items-center ">
               <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                 <svg
@@ -59,7 +58,7 @@ export default function Projects() {
                 in Japan with an interface we all love.
               </p>
             </div>
-          </li>
+          </div>
           <li class="relative mb-6 sm:mb-0">
             <div class="flex items-center">
               <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
