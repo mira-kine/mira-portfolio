@@ -10,17 +10,17 @@ export default function App() {
   return (
     <>
       <div className="main-container">
-        <NavBar />
-        <div className="scroll-container">
-          <div className="content">
-            <div className="gallery snap-mandatory snap-y">
-              <Landing />
-              <AboutMe />
-              <Projects />
-              <Contact />
-            </div>
+        {/* <div className="scroll-container"> */}
+        <div className="content">
+          <NavBar />
+          <div className="gallery snap-mandatory snap-y h-screen w-screen">
+            <Landing />
+            <AboutMe />
+            <Projects />
+            <Contact />
           </div>
         </div>
+        {/* </div> */}
       </div>
     </>
   );

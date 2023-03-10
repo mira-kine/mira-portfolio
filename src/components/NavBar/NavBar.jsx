@@ -97,8 +97,46 @@ export default function NavBar() {
                 className="bg-white border rounded-md transform scale-0 group-hover:scale-100 absolute 
     transition duration-200 ease-in-out origin-top min-w-32 text-sm"
               >
-                <li>Menu</li>
-                <li>Testing</li>
+                <li>
+                  <Link
+                    to="home"
+                    activeClass="active"
+                    smooth={true}
+                    spy={true}
+                    offset={0}
+                    duration={650}
+                    className="mx-8 hover:text-blue-900 cursor-pointer"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link
+                    to="about-me"
+                    activeClass="active"
+                    smooth={true}
+                    spy={true}
+                    offset={0}
+                    duration={650}
+                    className="mx-8 hover:text-blue-900 cursor-pointer"
+                  >
+                    About Me
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="contact"
+                    activeClass="active"
+                    smooth={true}
+                    spy={true}
+                    offset={0}
+                    duration={650}
+                    className="mx-8 hover:text-blue-900 cursor-pointer"
+                  >
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
