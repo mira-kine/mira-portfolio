@@ -12,7 +12,7 @@ export default function Projects() {
         className="flex flex-col py-5 px-5 w-full sm:w-3/5 align-center justify-center
         border-r-2"
       >
-        <div className="flex flex-col justify-center bg-celadon opacity-40 py-8 px-8 z-10 w-full h-1/3 sm:h-1/5 sm:text-center">
+        <div className="flex flex-col justify-center bg-celadon py-8 px-8 z-10 w-full h-1/3 sm:h-1/5 sm:text-center">
           <h1 className="text-7xl lg:text-8xl text-white">Projects</h1>
         </div>
         <div aria-label="left-text-container" className="px-5 m-3 border-r-2">
@@ -22,8 +22,8 @@ export default function Projects() {
           </p>
         </div>
       </div>
-      <div className="flex items-center align-center justify-center h-full overflow-scroll overflow-x-scroll">
-        <ol class="items-center sm:flex overflow-scroll overflow-x-scroll m-6 h-3/4 sm:h-full">
+
+      {/* <ol class="items-center sm:flex overflow-scroll overflow-x-scroll m-6 h-3/4 sm:h-full">
           <div class="relative mb-6 sm:mb-0">
             <div class="flex items-center ">
               <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
@@ -200,8 +200,7 @@ export default function Projects() {
               </p>
             </div>
           </li>
-        </ol>
-      </div>
+        </ol> */}
     </div>
   );
 }

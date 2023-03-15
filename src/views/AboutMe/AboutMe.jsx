@@ -8,7 +8,7 @@ export default function AboutMe() {
     >
       <div
         aria-label="about-me-title"
-        className="flex flex-col h-full sm:min-w-fit bg-charcoal scroll-mt-0.5 "
+        className="flex flex-col h-full sm:min-w-fit scroll-mt-0.5 "
       >
         <div className="flex flex-col justify-center align-center h-1/4 mt-10 ml-20">
           <h1 className="dark:text-white text-8xl lg:text-9xl font-semibold text-charcoal w-full">

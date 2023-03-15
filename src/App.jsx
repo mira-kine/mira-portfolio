@@ -4,23 +4,17 @@ import AboutMe from './views/AboutMe/AboutMe';
 import Projects from './views/Projects/Projects';
 import Contact from './views/Contact/Contact';
 import Landing from './views/Landing/Landing';
+import ContactForm from './components/ContactForm/ContactForm';
 
 export default function App() {
-  // const images = imageData.map((image, index) => )
   return (
     <>
-      <div className="main-container">
-        {/* <div className="scroll-container"> */}
-        <div className="content">
-          <NavBar />
-          <div className="gallery snap-mandatory snap-y h-screen w-screen">
-            <Landing />
-            <AboutMe />
-            <Projects />
-            <Contact />
-          </div>
-        </div>
-        {/* </div> */}
+      <NavBar />
+      <div className="bg-tempsky snap-mandatory snap-y">
+        <Landing />
+        <AboutMe />
+        <Projects />
+        <Contact />
       </div>
     </>
   );
