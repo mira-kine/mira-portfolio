@@ -7,7 +7,6 @@ export default function Landing() {
       className="snap-center flex flex-col h-full w-full"
       name="home"
     >
-      {/* add cute hellow gif here */}
       <div
         aria-label="title-container"
         // bg-grumpy bg-cover bg-no-repeat
