@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <div className="bg-tempsky main-container snap-mandatory snap-y">
+      <div className="bg-tempsky bg-cover main-container snap-mandatory snap-y h-full w-full">
         <Landing />
         <AboutMe />
         <Projects />

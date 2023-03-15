@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <>
       <div
-        className="snap-center flex scroll-mt-0.5 h-screen w-screen items-center"
+        className="snap-center flex scroll-mt-0.5 h-5/6 w-screen items-center justify-center py-12 mt-12 mb-28"
         name="about-me"
       >
         {/* <div
@@ -28,22 +28,25 @@ export default function AboutMe() {
           </p>
         </div>
       </div> */}{' '}
-        <a className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-charcoal-700 dark:bg-charcoal-800 dark:hover:bg-charcoal-700">
+        <div className="flex flex-col items-center bg-white border border-charcoal w-5/6 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-charcoal dark:border-charcoal dark:bg-charcoal/75 dark:text-white dark:hover:bg-charcoal">
           <img
-            className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-            src=""
-            alt=""
+            className="object-contain w-7/8 rounded-full h-72 my-8 md:h-auto md:my-0 md:w-48 md:rounded-none md:rounded-l-lg"
+            src="/assets/headshot_mira.jpg"
+            alt="headshot of mira"
           />
-          <div className="flex flex-col justify-between p-4 leading-normal">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-steelblue dark:text-white">
-              Noteworthy technology acquisitions 2021
+          <div className="flex flex-col justify-between p-4 leading-normal bg-charcoal md:bg-charcoal/0">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-steelblue dark:text-pink">
+              About Me:
             </h5>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <p className="mb-3 font-normal text-charcoal-700 dark:text-charcoal-400">
+              I am a full stack software developer who cares about people and
+              their stories. My background in mental health & biopsychology
+              helps me stay grounded in human connection and user experience
+              while pursuing accessibility, equity and soulfulness in the
+              digital world.
             </p>
           </div>
-        </a>
+        </div>
       </div>
     </>
   );
