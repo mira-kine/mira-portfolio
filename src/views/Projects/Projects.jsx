@@ -2,31 +2,49 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div
-      aria-label="timeline-container"
-      className="flex flex-col sm:flex-row h-screen w-screen snap-center"
-      name="projects"
-    >
-      <div
-        aria-label="left-screen-container"
-        className="flex flex-col py-5 px-5 w-full sm:w-3/5 align-center justify-center
-        border-r-2"
-      >
-        <div className="flex flex-col justify-center bg-celadon py-8 px-8 z-10 w-full h-1/3 sm:h-1/5 sm:text-center">
-          <h1 className="text-7xl lg:text-8xl text-white">Projects</h1>
-        </div>
-        <div aria-label="left-text-container" className="px-5 m-3 border-r-2">
-          <p className="text-2xl sm:text-3xl md:text-4xl">
-            Click on the image to see a deployed version of my app. More to
-            come...
+    <>
+      <div class="max-w-sm bg-white border border-charcoal rounded-lg shadow dark:bg-charcoal dark:border-charcoal">
+        <a href="#">
+          <img class="rounded-t-lg" src="/assets/tomo1.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-charcoal dark:text-white">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
           </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
         </div>
       </div>
+    </>
+  );
 
-      {/* <ol class="items-center sm:flex overflow-scroll overflow-x-scroll m-6 h-3/4 sm:h-full">
+  /* <ol class="items-center sm:flex overflow-scroll overflow-x-scroll m-6 h-3/4 sm:h-full">
           <div class="relative mb-6 sm:mb-0">
             <div class="flex items-center ">
-              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-slate-900 shrink-0">
                 <svg
                   aria-hidden="true"
                   class="w-3 h-3 text-blue-800 dark:text-blue-300"
@@ -200,7 +218,5 @@ export default function Projects() {
               </p>
             </div>
           </li>
-        </ol> */}
-    </div>
-  );
+        </ol> */
 }

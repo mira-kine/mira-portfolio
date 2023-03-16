@@ -7,21 +7,20 @@ export default function ContactForm() {
       name="contact"
     >
       <div className="flex flex-col md:flex-row justify-center md:space-y-0 space-y-4 h-screen w-screen content-center items-center">
-        <div class="rounded-xl bg-gray-800 bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8 h-3/5 max-w-10/12 pb-8">
-          <div class="text-white flex flex-col text-center">
-            <div class="mb-4 flex flex-col items-center">
+        <div className="rounded-xl bg-gray-800 bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8 h-3/5 max-w-10/12 pb-8">
+          <div className="text-white flex flex-col text-center">
+            <div className="mb-4 flex flex-col items-center">
               <img
                 src="../assets/sunflower-pc.jpg"
                 width="150"
-                alt=""
-                srcset=""
+                alt="profile pic with sunflower"
               />
-              <h1 class="mb-2 text-2xl">Let's connect!</h1>
+              <h1 className="mb-2 text-2xl">Let's connect!</h1>
             </div>
 
-            <div class="mb-4 text-lg">
+            <div className="mb-4 text-lg">
               <button
-                class="rounded-3xl border-none bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
+                className="rounded-3xl border-none bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
                 name="name"
               >
                 <a
@@ -33,9 +32,9 @@ export default function ContactForm() {
                 </a>
               </button>
             </div>
-            <div class="mb-4 text-lg">
+            <div className="mb-4 text-lg">
               <button
-                class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
+                className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
                 name="name"
               >
                 <a
@@ -47,9 +46,9 @@ export default function ContactForm() {
                 </a>
               </button>
             </div>
-            <div class="mb-4 text-lg">
+            <div className="mb-4 text-lg">
               <button
-                class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
+                className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
                 name="name"
               >
                 <a
