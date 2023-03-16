@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-wrap flex-col justify-center bg-charcoal/50 h-full w-full md:flex-row">
+      <div className="flex flex-wrap flex-col justify-center align-center items-center bg-charcoal/50 h-full w-full md:flex-row">
         <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-1/4 mx-10 my-12">
           <img
             className="rounded-t-lg"
