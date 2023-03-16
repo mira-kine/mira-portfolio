@@ -1,9 +1,21 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Popover } from '@chakra-ui/react';
+import React from 'react';
+import { useScrollPosition } from '../../hooks/usePosition';
 
 export default function NavBar() {
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(' ');
+  }
+
+  const scrollPosition = useScrollPosition();
+
   return (
-    <div className="border-b-2 shadow-md border-gray-100 pb-5 sticky top-0 bg-white">
+    <div
+      className={classNames(
+        scrollPosition > 110 ? 'bg-opacity-40 text-white' : 'bg-white',
+        'sticky top-0 z-20 bg-white transition-shadow'
+      )}
+    >
       <div className="max-w-7xl mx-auto my-3 px-3 sm:px-6 ">
         <div className="flex flex-col-reverse md:flex-row min-w-full py-4 space-y-8 justify-center md:justify-between  md:space-x-10">
           <div className="flex justify-center">
@@ -73,7 +85,7 @@ export default function NavBar() {
                   <span className="sr-only">LinkedIn</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
