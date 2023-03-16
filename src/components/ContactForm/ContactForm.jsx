@@ -8,14 +8,14 @@ export default function ContactForm() {
     >
       <div className="flex flex-col md:flex-row justify-center md:space-y-0 space-y-4 h-screen w-screen content-center items-center">
         <div className="rounded-xl bg-gray-800 bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8 h-3/5 max-w-10/12 pb-8">
-          <div className="text-white flex flex-col text-center">
+          <div className="text-charcoal flex flex-col text-center">
             <div className="mb-4 flex flex-col items-center">
               <img
                 src="../assets/sunflower-pc.jpg"
                 width="150"
                 alt="profile pic with sunflower"
               />
-              <h1 className="mb-2 text-2xl">Let's connect!</h1>
+              <h1 className="mb-2 text-2xl text-charcoal">Let's connect!</h1>
             </div>
 
             <div className="mb-4 text-lg">
@@ -26,7 +26,7 @@ export default function ContactForm() {
                 <a
                   href="https://www.linkedin.com/in/mira-kinebuchi/"
                   target="_blank"
-                  className="text-white"
+                  className="text-charcoal"
                 >
                   LinkedIn
                 </a>
