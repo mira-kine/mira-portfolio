@@ -8,9 +8,10 @@ import Landing from './views/Landing/Landing';
 export default function App() {
   return (
     <>
-      <NavBar />
       <div className="bg-tempsky bg-cover main-container snap-mandatory snap-y h-full w-full">
+        <NavBar />
         <Landing />
+        {/* add browser router and fuller about me page later */}
         <AboutMe />
         <Projects />
         <Contact />

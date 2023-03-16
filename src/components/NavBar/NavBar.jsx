@@ -3,9 +3,12 @@ import { Link } from 'react-scroll';
 
 export default function NavBar() {
   return (
-    <div className="border-b-2 shadow-md border-gray-100 pb-5">
+    <div className="border-b-2 shadow-md border-gray-100 pb-5 sticky top-0 bg-white">
       <div className="max-w-7xl mx-auto my-3 px-3 sm:px-6 ">
-        <div className="flex flex-col-reverse md:flex-row min-w-full py-6 space-y-8 justify-center md:justify-between  md:space-x-10">
+        <div className="flex flex-col-reverse md:flex-row min-w-full py-4 space-y-8 justify-center md:justify-between  md:space-x-10">
+          <div className="flex justify-center">
+            <h2 className="text-3xl pt-6">Hi, I'm so glad you're here.</h2>
+          </div>
           <div className="flex justify-around">
             <div className="flex justify-end ">
               <div className="flex whitespace-nowrap pt-1  mx-3justify-center space-x-1 ">
@@ -62,11 +65,22 @@ export default function NavBar() {
                     ></path>
                   </svg>
                 </a>
+                <a
+                  href="https://www.linkedin.com/in/mira-kinebuchi/"
+                  target="_blank"
+                  className="text-gray-900 hover:text-gray-500"
+                >
+                  <span className="sr-only">LinkedIn</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                  </svg>
+                </a>
               </div>
-              <a
-                className=" whitespace-nowrap text-base  text-gray-500 hover:text-gray-900"
-                href="/MarketPlace_AisModa/register"
-              ></a>
             </div>
           </div>
         </div>

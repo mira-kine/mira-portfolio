@@ -14,7 +14,7 @@ export default function AboutMe() {
             alt="headshot of mira"
           />
           <div className="flex flex-col justify-between p-4 leading-normal bg-charcoal md:bg-charcoal/0">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-steelblue dark:text-pink">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-pink dark:text-pink">
               About Me:
             </h5>
             <p className="mb-3 font-normal text-charcoal-700 dark:text-charcoal-400">

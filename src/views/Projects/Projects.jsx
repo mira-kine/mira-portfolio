@@ -30,7 +30,7 @@ export default function Projects() {
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://tomoiru-web.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-celadon dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   Check it out
                   <svg
@@ -49,7 +49,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/mira-kine/tomoiru-web"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-steelblue dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
@@ -86,7 +86,7 @@ export default function Projects() {
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://tcl-45-smart-shopping-list.firebaseapp.com/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-celadon dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   Check it out
                   <svg
@@ -105,7 +105,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-steelblue dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
@@ -142,7 +142,7 @@ export default function Projects() {
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://kind-haibt-83aacb.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-celadon dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   Check it out
                   <svg
@@ -161,7 +161,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/alchemy-job-app/job-app"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-steelblue dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
@@ -199,7 +199,7 @@ export default function Projects() {
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://unspokenstories.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-celadon dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   Check it out
                   <svg
@@ -218,7 +218,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/unspoken-project/unspoken"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-peach focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-steelblue dark:hover:bg-peach dark:hover:text-charcoal dark:focus:celadon"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg

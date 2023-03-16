@@ -17,7 +17,7 @@ export default function Landing() {
           className="flex flex-col justify-center bg-white opacity-40 py-8 px-8 z-10 w-full md:w-5/6 h-1/3 sm:text-center"
         >
           <h2 className="text-6xl md:text-7xl lg:text-8xl tracking-wide text-charcoal z-20">
-            Hi, glad you made it.
+            some space
           </h2>
         </div>
       </div>
