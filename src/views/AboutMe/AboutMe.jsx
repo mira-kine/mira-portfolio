@@ -9,7 +9,7 @@ export default function AboutMe() {
       >
         <div className="flex flex-col items-center bg-white border border-charcoal w-full rounded-lg shadow md:flex-row md:max-w-2xl hover:bg-charcoal dark:border-charcoal dark:bg-charcoal/75 dark:text-white dark:hover:bg-charcoal">
           <img
-            className="object-contain w-5/6 rounded-full h-1/2 mx-8 my-8 md:h-auto md:my-0 md:w-48"
+            className="object-contain w-1/2 rounded-full h-1/2 mx-8 my-8 md:h-auto md:my-0 md:w-48"
             src="/assets/sunflower-pc.jpg"
             alt="headshot of mira"
           />
