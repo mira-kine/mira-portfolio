@@ -1,4 +1,3 @@
-import { Popover } from '@chakra-ui/react';
 import React from 'react';
 import { useScrollPosition } from '../../hooks/usePosition';
 

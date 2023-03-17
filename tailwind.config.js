@@ -9,6 +9,7 @@ module.exports = {
         goodjob: "url('/public/assets/goodjob-gif.gif')",
         grumpy: "url('/public/assets/grumpy.webp')",
         tempsky: "url('/public/assets/temp-sky.jpg')",
+        lighterretro: "url('/public/assets/lighter_retro.jpg')",
       },
     },
     colors: {

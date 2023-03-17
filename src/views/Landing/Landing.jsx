@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <div
       aria-label="main-container"
-      className="snap-center flex flex-col h-full w-full pb-12"
+      className="bg-powder snap-center flex flex-col h-full w-full pb-12"
       name="home"
     >
       <div
