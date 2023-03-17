@@ -18,11 +18,18 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto my-3 px-3 sm:px-6 ">
         <div className="flex flex-col-reverse md:flex-row min-w-full py-4 space-y-8 justify-center md:justify-between  md:space-x-10">
           <div className="flex justify-center">
-            <h2 className="text-3xl pt-6">Hi, I'm so glad you're here.</h2>
+            <h2
+              className={classNames(
+                scrollPosition > 110 ? 'invisible' : 'visible',
+                'sticky top-0 z-20 bg-white transition-shadow text-4xl pt-6 rounded-lg text-black'
+              )}
+            >
+              Hi, I'm so glad you're here.
+            </h2>
           </div>
           <div className="flex justify-around">
             <div className="relative">
-              <div className="absolute inset-0 bg-rosy rounded-lg blur"></div>
+              <div className="absolute inset-0 bg-pink rounded-lg blur"></div>
               <div className="flex justify-end relative bg-white rounded-lg">
                 <div className="flex whitespace-nowrap pt-1  mx-3justify-center space-x-1 ">
                   <a

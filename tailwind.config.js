@@ -14,7 +14,6 @@ module.exports = {
     },
     colors: {
       white: '#FFFFFF',
-      blue: '#B1C3CAff',
       powder: '#A6BCC9ff',
       charcoal: '#2C3F4Bff',
       pink: '#ECDACCff',
