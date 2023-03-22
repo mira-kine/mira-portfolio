@@ -29,8 +29,18 @@ export default function NavBar() {
           </div>
           <div className="flex justify-around">
             <div className="relative">
-              <div className="absolute inset-0 bg-pink rounded-lg blur"></div>
-              <div className="flex justify-end relative bg-white rounded-lg">
+              <div
+                className={classNames(
+                  scrollPosition > 110 ? 'invisible' : 'visible',
+                  'absolute inset-0 bg-pink rounded-lg blur'
+                )}
+              ></div>
+              <div
+                className={classNames(
+                  scrollPosition > 110 ? 'bg-none' : 'bg-white',
+                  'flex justify-end relative rounded-lg'
+                )}
+              >
                 <div className="flex whitespace-nowrap pt-1  mx-3justify-center space-x-1 ">
                   <a
                     href="https://www.instagram.com/mirakinebuchi"
