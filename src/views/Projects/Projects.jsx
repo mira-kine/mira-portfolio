@@ -3,16 +3,16 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-wrap flex-col justify-center align-center items-center bg-charcoal/50 h-full w-full md:flex-row">
+      <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
         <div
           aria-label="name-container"
-          className="flex flex-col justify-center bg-white opacity-40 py-8 px-8 z-10 w-full h-1/3 sm:text-center"
+          className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
         >
-          <h1 className="text-7xl sm:text-8xl lg:text-9xl tracking-wide text-charcoal z-20">
-            Projects
-          </h1>
+          <p className="text-3xl sm:text-4xl lg:text-5xl tracking-wide text-charcoal z-20">
+            Here are some of my projects:
+          </p>
         </div>
-        <div className="flex flex-wrap flex-col justify-center align-center items-center bg-charcoal/50 h-full w-full md:flex-row">
+        <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
           <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-1/4 mx-10 my-12">
             <img
               className="rounded-t-lg"
