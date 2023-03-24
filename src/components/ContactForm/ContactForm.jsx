@@ -20,7 +20,7 @@ export default function ContactForm() {
 
             <div className="mb-4 text-lg">
               <button
-                className="rounded-3xl border-none bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
+                className="rounded-3xl border-none bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-blue"
                 name="name"
               >
                 <a
@@ -34,7 +34,7 @@ export default function ContactForm() {
             </div>
             <div className="mb-4 text-lg">
               <button
-                className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
+                className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-blue"
                 name="name"
               >
                 <a
@@ -48,7 +48,7 @@ export default function ContactForm() {
             </div>
             <div className="mb-4 text-lg">
               <button
-                className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-celadon"
+                className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center shadow-lg outline-none backdrop-blur-md hover:bg-blue"
                 name="name"
               >
                 <a
