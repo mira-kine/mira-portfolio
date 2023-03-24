@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
+      <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
         <div
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
