@@ -2,206 +2,244 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div
-      aria-label="timeline-container"
-      className="flex flex-col sm:flex-row h-screen w-screen snap-center"
-      name="projects"
-    >
-      <div
-        aria-label="left-screen-container"
-        className="flex flex-col py-5 px-5 w-full sm:w-3/5 align-center justify-center
-        border-r-2"
-      >
-        <div className="flex flex-col justify-center bg-celadon opacity-40 py-8 px-8 z-10 w-full h-1/3 sm:h-1/5 sm:text-center">
-          <h1 className="text-7xl lg:text-8xl text-white">Projects</h1>
-        </div>
-        <div aria-label="left-text-container" className="px-5 m-3 border-r-2">
-          <p className="text-2xl sm:text-3xl md:text-4xl">
-            Click on the image to see a deployed version of my app. More to
-            come...
+    <>
+      <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
+        <div
+          aria-label="name-container"
+          className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
+        >
+          <p className="text-3xl sm:text-4xl lg:text-5xl tracking-wide text-charcoal z-20">
+            Here are some of my projects:
           </p>
         </div>
-      </div>
-      <div className="flex items-center align-center justify-center h-full overflow-scroll overflow-x-scroll">
-        <ol class="items-center sm:flex overflow-scroll overflow-x-scroll m-6 h-3/4 sm:h-full">
-          <div class="relative mb-6 sm:mb-0">
-            <div class="flex items-center ">
-              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                <svg
-                  aria-hidden="true"
-                  class="w-3 h-3 text-blue-800 dark:text-blue-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </div>
-              <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-            </div>
-            <div class="mt-3 sm:pr-8">
-              <a href="https://tomoiru-web.netlify.app/">
-                <img src="../assets/tomo1.png" className="h-1/8 sm:flex" />
-              </a>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
-                Tomoiru-Web
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2023
-              </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                Fun way for users to receive recommendations for what to do/eat
-                in Japan with an interface we all love.
+        <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
+          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-1/4 mx-10 my-12">
+            <img
+              className="rounded-t-lg"
+              src="/assets/tomoiru-web.png"
+              alt="tomoiru web home page"
+            />
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+                Tomoiru-web
+              </h5>
+              <p className="mb-3 font-normal text-charcoal dark:text-white">
+                A fun way for friends to receive recommendations for what to do
+                and eat in Japan with an interface we all love.
               </p>
+              <div className="flex justify-start gap-x-5">
+                <a
+                  href="https://tomoiru-web.netlify.app/"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                >
+                  Check it out
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/mira-kine/tomoiru-web"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                >
+                  GitHub
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
-          <li class="relative mb-6 sm:mb-0">
-            <div class="flex items-center">
-              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                <svg
-                  aria-hidden="true"
-                  class="w-3 h-3 text-blue-800 dark:text-blue-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </div>
-              <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-            </div>
-            <div class="mt-3 sm:pr-8">
-              <a href="https://tcl-45-smart-shopping-list.firebaseapp.com/">
-                <img src="../assets/shop-ade.jpg" className="sm:flex" />
-              </a>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
-                ShopAde
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2022
-              </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                A retro arcade Pacman themed smart shopping list app that learns
-                your buying habits and predicts the next time you may buy items.
+          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-1/4 mx-12 my-12">
+            <img
+              className="rounded-t-lg"
+              src="/assets/shop-ade.png"
+              alt="shop-ade title page"
+            />
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+                Shop-Ade
+              </h5>
+              <p className="mb-3 font-normal text-charcoal dark:text-white">
+                A retro arcade themed smart shopping list app that learns and
+                predicts your buying habits for an easier shoppers experience!
               </p>
-            </div>
-          </li>
-          <li class="relative mb-6 sm:mb-0">
-            <div class="flex items-center">
-              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                <svg
-                  aria-hidden="true"
-                  class="w-3 h-3 text-blue-800 dark:text-blue-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div className="flex justify-start gap-x-5">
+                <a
+                  href="https://tcl-45-smart-shopping-list.firebaseapp.com/"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                  Check it out
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                >
+                  GitHub
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
               </div>
-              <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
             </div>
-            <div class="mt-3 sm:pr-8">
-              <a href="https://goodjob.dev/">
-                <img src="../assets/goodjob-ss.png" className="sm:flex" />
-              </a>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
-                GoodJob
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2022
-              </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                An app that supports software developers in organizing their job
-                application process.
+          </div>
+          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 min-h-1/4 mx-12 my-12">
+            <img
+              className="rounded-t-lg"
+              src="/assets/goodjob.png"
+              alt="goodjob.dev web home page"
+            />
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+                GoodJob.dev
+              </h5>
+              <p className="mb-3 font-normal text-charcoal dark:text-white">
+                An app that supports early software developers in organizing
+                their job application process.
               </p>
-            </div>
-          </li>
-          <li class="relative mb-6 sm:mb-0">
-            <div class="flex items-center">
-              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                <svg
-                  aria-hidden="true"
-                  class="w-3 h-3 text-blue-800 dark:text-blue-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div className="flex justify-start gap-x-5">
+                <a
+                  href="https://kind-haibt-83aacb.netlify.app/"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </div>
-              <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
-            </div>
-            <div class="mt-3 sm:pr-8">
-              <a href="alchemyyearbook.netlify.app/">
-                <img src="../assets/yearbook.png" className="sm:flex" />
-              </a>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
-                Yearbook App
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2022
-              </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                An app that bridges the gap in alumni networking for Alchemy
-                students
-              </p>
-            </div>
-          </li>
-          <li class="relative mb-6 sm:mb-0">
-            <div class="flex items-center">
-              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                <svg
-                  aria-hidden="true"
-                  class="w-3 h-3 text-blue-800 dark:text-blue-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
+                  Check it out
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/alchemy-job-app/job-app"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                  GitHub
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
               </div>
-              <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
             </div>
-            <div class="mt-3 sm:pr-8">
-              <a href="https://unspokenstories.netlify.app/">
-                <img src="../assets/unspoken.jpg" className="sm:flex" />
-              </a>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-black">
+          </div>
+          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-min mx-12 my-12">
+            <img
+              className="rounded-t-lg"
+              src="/assets/unspoken.png"
+              alt="unspoken web home page"
+            />
+            <div className="p-5">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
                 Unspoken
-              </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                2021
-              </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              </h5>
+              <p className="mb-3 font-normal text-charcoal dark:text-white">
                 A place to write your stories, memories or unspoken words while
                 listening to lofi beats. Sometimes all you need is to write it
                 out.
               </p>
+              <div className="flex justify-start gap-x-5">
+                <a
+                  href="https://unspokenstories.netlify.app/"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                >
+                  Check it out
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/unspoken-project/unspoken"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                >
+                  GitHub
+                  <svg
+                    aria-hidden="true"
+                    className="w-4 h-4 ml-2 -mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
             </div>
-          </li>
-        </ol>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
