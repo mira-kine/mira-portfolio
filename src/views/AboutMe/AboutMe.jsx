@@ -4,7 +4,12 @@ export default function AboutMe() {
   return (
     <>
       <div
-        className="snap-center flex scroll-mt-0.5 h-full w-screen ml-14 lg:ml-48 justify-center items-center align-center lg:justify-start py-12 my-12"
+        data-te-animation-init
+        data-te-animation-start="onScroll"
+        data-te-animation-on-scroll="repeat"
+        data-te-animation-reset="true"
+        data-te-animation="[slide-right_1s_ease-in-out]"
+        className="snap-center flex scroll-mt-0.5 h-full w-screen justify-center items-center align-center py-12 my-12"
         name="about-me"
       >
         <div className="relative">
