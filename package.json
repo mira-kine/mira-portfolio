@@ -68,7 +68,6 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.9",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@tailwindcss/aspect-ratio": "^0.4.0",

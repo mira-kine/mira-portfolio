@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
+      <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
         <div
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
@@ -49,7 +49,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/mira-kine/tomoiru-web"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
@@ -105,7 +105,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
@@ -161,7 +161,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/alchemy-job-app/job-app"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
@@ -218,7 +218,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/unspoken-project/unspoken"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-mocha dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
                 >
                   GitHub
                   <svg
