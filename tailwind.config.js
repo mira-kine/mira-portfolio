@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./src/**/*.{html,js,jsx}'],
+  content: [
+    './src/**/*.{html,js,jsx}',
+    './node_modules/tw-elements/dist/js/**/*.js',
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -11,6 +14,10 @@ module.exports = {
         tempsky: "url('/public/assets/temp-sky.jpg')",
         lighterretro: "url('/public/assets/lighter_retro_bg2.png')",
       },
+      safelist: [
+        'animate-[fade-in_1s_ease-in-out]',
+        'animate-[slide-right_1s_ease-in-out]',
+      ],
     },
     colors: {
       white: '#FFFFFF',
@@ -24,5 +31,5 @@ module.exports = {
       sand: '#F0E5D8',
     },
   },
-  plugins: [],
+  plugins: [require('tw-elements/dist/plugin')],
 };
