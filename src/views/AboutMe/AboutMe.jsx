@@ -13,7 +13,7 @@ export default function AboutMe() {
         name="about-me"
       >
         <div className="relative">
-          <div className="absolute inset-0 bg-pink rounded-lg blur"></div>
+          <div className="absolute inset-0 bg-matcha rounded-lg blur"></div>
           <div className="relative flex flex-col items-center bg-white w-full rounded-lg md:flex-row md:max-w-2xl dark:bg-charcoal dark:text-white">
             <img
               className="object-contain w-1/2 rounded-full h-1/2 mx-8 my-8 md:h-auto md:my-0 md:w-48 border border-2 border-solid border-violet"

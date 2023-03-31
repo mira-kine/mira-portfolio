@@ -4,15 +4,16 @@ export default function Landing() {
   return (
     <div
       aria-label="landing-container"
-      className="snap-center flex flex-col h-3/4 w-screen md:h-5/6 lg:h-7/8 xlg:h-screen pb-12"
+      className="snap-center flex flex-col w-screen content-center items-center justify-center self-center pb-12"
       name="home"
     >
-      <div
-        aria-label="title-container"
-        className="flex flex-col justify-center content-center items-center z-0 w-full h-full"
-      >
-        <img src="/assets/grumpy.webp" className="w-full" />
+      <div className="p-12 z-2 absolute z-5 w-full flex justify-center">
+        {/* <h1 className="text-9xl text-white font-handwrite">Mira</h1> */}
       </div>
+      <img
+        src="/assets/heart_wifi_icon.png"
+        className="w-full md:w-5/6 lg:w-1/2 xlg:w-1/4 z-1"
+      />
     </div>
   );
 }
