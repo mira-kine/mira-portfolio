@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      type: ['EB Garamond', 'serif'],
+      garamond: ['EB Garamond', 'serif'],
       handwrite: ['Gaegu', 'cursive'],
     },
     extend: {

@@ -15,7 +15,9 @@ export default function ContactForm() {
                 width="150"
                 alt="profile pic with sunflower"
               />
-              <h1 className="mb-2 text-2xl text-charcoal">Let's connect!</h1>
+              <h1 className="m-2 text-3xl text-charcoal font-handwrite">
+                Let's connect!
+              </h1>
             </div>
 
             <div className="mb-4 text-lg">
@@ -26,7 +28,7 @@ export default function ContactForm() {
                 <a
                   href="https://www.linkedin.com/in/mira-kinebuchi/"
                   target="_blank"
-                  className="text-charcoal"
+                  className="text-charcoal font-handwrite text-2xl"
                 >
                   LinkedIn
                 </a>
@@ -40,7 +42,7 @@ export default function ContactForm() {
                 <a
                   href="https://github.com/mira-kine"
                   target="_blank"
-                  className="text-gray-900 hover:text-gray-500"
+                  className="text-charcoal font-handwrite text-2xl"
                 >
                   GitHub
                 </a>
@@ -54,7 +56,7 @@ export default function ContactForm() {
                 <a
                   href="https://www.twitter.com/mirakine_"
                   target="_blank"
-                  className="text-gray-900 hover:text-gray-500"
+                  className="text-charcoal font-handwrite text-2xl"
                 >
                   Twitter
                 </a>

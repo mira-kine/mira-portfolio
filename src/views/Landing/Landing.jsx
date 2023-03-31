@@ -1,19 +1,19 @@
 import React from 'react';
-import AboutMe from '../AboutMe/AboutMe';
 
 export default function Landing() {
   return (
     <div
       aria-label="landing-container"
-      className="snap-center flex flex-col w-screen content-center items-center justify-center self-center pb-12"
+      className="snap-center flex flex-col w-screen h-full mb-44 md:mb-0 pt-12 md:pt-0
+     md:h-screen content-center items-center justify-start md:justify-center md:pb-28"
       name="home"
     >
-      <div className="p-12 z-2 absolute z-5 w-full flex justify-center">
+      <div className="p-12 z-2 absolute z-5 flex justify-center">
         {/* <h1 className="text-9xl text-white font-handwrite">Mira</h1> */}
       </div>
       <img
         src="/assets/heart_wifi_icon.png"
-        className="w-full md:w-5/6 lg:w-1/2 xlg:w-1/4 z-1"
+        className="w-full md:w-3/4 lg:w-7/12 xlg:w-5/12 z-1 "
       />
     </div>
   );

@@ -3,12 +3,12 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
+      <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row mt-28 pt-12">
         <div
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
         >
-          <p className="text-3xl sm:text-4xl lg:text-5xl tracking-wide text-charcoal z-20">
+          <p className="text-3xl sm:text-4xl lg:text-5xl tracking-wide text-charcoal z-20 font-garamond">
             Here are some of my projects:
           </p>
         </div>
@@ -20,19 +20,19 @@ export default function Projects() {
               alt="tomoiru web home page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
                 Tomoiru-web
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
                 A fun way for friends to receive recommendations for what to do
                 and eat in Japan with an interface we all love.
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://tomoiru-web.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
-                  Check it out
+                  Demo
                   <svg
                     aria-hidden="true"
                     className="w-4 h-4 ml-2 -mr-1"
@@ -49,7 +49,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/mira-kine/tomoiru-web"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   GitHub
                   <svg
@@ -76,19 +76,19 @@ export default function Projects() {
               alt="shop-ade title page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
                 Shop-Ade
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
                 A retro arcade themed smart shopping list app that learns and
                 predicts your buying habits for an easier shoppers experience!
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://tcl-45-smart-shopping-list.firebaseapp.com/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
-                  Check it out
+                  Demo
                   <svg
                     aria-hidden="true"
                     className="w-4 h-4 ml-2 -mr-1"
@@ -105,7 +105,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   GitHub
                   <svg
@@ -132,19 +132,19 @@ export default function Projects() {
               alt="goodjob.dev web home page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
                 GoodJob.dev
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
                 An app that supports early software developers in organizing
                 their job application process.
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://kind-haibt-83aacb.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
-                  Check it out
+                  Demo
                   <svg
                     aria-hidden="true"
                     className="w-4 h-4 ml-2 -mr-1"
@@ -161,7 +161,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/alchemy-job-app/job-app"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   GitHub
                   <svg
@@ -188,10 +188,10 @@ export default function Projects() {
               alt="unspoken web home page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
                 Unspoken
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
                 A place to write your stories, memories or unspoken words while
                 listening to lofi beats. Sometimes all you need is to write it
                 out.
@@ -199,9 +199,9 @@ export default function Projects() {
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://unspokenstories.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rosy dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
-                  Check it out
+                  Demo
                   <svg
                     aria-hidden="true"
                     className="w-4 h-4 ml-2 -mr-1"
@@ -218,7 +218,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/unspoken-project/unspoken"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bitter rounded-lg hover:bg-pink focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet dark:hover:bg-pink dark:hover:text-charcoal dark:focus:rosy"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   GitHub
                   <svg

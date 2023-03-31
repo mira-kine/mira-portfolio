@@ -21,7 +21,7 @@ export default function NavBar() {
             <h2
               className={classNames(
                 scrollPosition > 110 ? 'invisible' : 'visible',
-                'sticky top-0 z-20 bg-white transition-shadow text-4xl pt-6 rounded-lg text-charcoal font-handwrite'
+                'sticky top-0 z-20 transition-shadow text-4xl pt-6 rounded-lg text-charcoal font-handwrite'
               )}
             >
               Hi, I'm so glad you're here.
