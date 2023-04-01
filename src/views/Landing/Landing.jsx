@@ -29,24 +29,31 @@ export default function Landing() {
         className="snap-center flex flex-col font-handwrite text-2xl md:text-4xl lg:text-6xl md:h-full w-7/8 lg:justify-start items-center align-center lg:mt-12 mx-12"
         name="about-me"
       >
-        <span>Current tech stack</span>
+        <span className="bg-white p-12 rounded-lg">Current tech stack</span>
         <div className="flex items-center justify-center w-full rounded-lg text-charcoal">
           <div className="flex flex-col">
-            <span className="font-handwrite text-5xl">React</span>
-            <span className="font-handwrite text-5xl">React</span>
+            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+              Javascript
+            </span>
+            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+              React
+            </span>
+            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+              Typescript
+            </span>
           </div>
           {/* <div className="flex flex-col p-4 leading-relaxed bg-charcoal">
-            <p className="pb-2 mb-2 text-3xl md:text-5xl font-bold text-white font-handwrite leading-relaxed">
+            <p className="pb-2 mb-2 text-3xl md:text-3xl font-bold text-white font-handwrite leading-relaxed">
               Current tech stack:
             </p>
           </div>
           <div className="flex flex-col p-4 leading-relaxed bg-charcoal">
-            <p className="pb-2 mb-2 text-3xl md:text-5xl font-bold text-white font-handwrite leading-relaxed">
+            <p className="pb-2 mb-2 text-3xl md:text-3xl font-bold text-white font-handwrite leading-relaxed">
               Current tech stack:
             </p>
           </div>
           <div className="flex flex-col p-4 leading-relaxed bg-charcoal">
-            <p className="pb-2 mb-2 text-3xl md:text-5xl font-bold text-white font-handwrite leading-relaxed">
+            <p className="pb-2 mb-2 text-3xl md:text-3xl font-bold text-white font-handwrite leading-relaxed">
               Current tech stack:
             </p>
           </div> */}
@@ -57,8 +64,15 @@ export default function Landing() {
             alt="mental health tech logo"
           />
           <div className="flex flex-col">
-            <span className="font-handwrite text-5xl">React</span>
-            <span className="font-handwrite text-5xl">React</span>
+            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+              Node.js
+            </span>
+            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+              Express
+            </span>
+            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+              SQL
+            </span>
           </div>
         </div>
       </div>
