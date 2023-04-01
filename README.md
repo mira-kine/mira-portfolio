@@ -1,2 +1,2 @@
 # Welcome to my portfolio!
-## Where I will be using to display my work and contact information
+### This is a space of constant growth and transformation. I want to make it easy for people to understand what I want to bring to the tech space, as I continue to advance my programming skills!
