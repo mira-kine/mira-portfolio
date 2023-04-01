@@ -9,9 +9,9 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <div className="main-container snap-mandatory snap-y h-full w-full">
-        <Landing />
+      <div className="main-container snap-mandatory snap-y h-full w-full bg-sand">
         <AboutMe />
+        <Landing />
         {/* add browser router and fuller about me page later */}
         <Projects />
         <Contact />
