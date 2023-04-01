@@ -31,7 +31,7 @@ export default function NavBar() {
             <div
               className={classNames(
                 scrollPosition > 110 ? 'bg-none' : 'bg-white',
-                'flex justify-end relative rounded-lg'
+                'flex justify-end relative rounded-lg bg-white px-2'
               )}
             >
               <div className="flex whitespace-nowrap pt-1  mx-3justify-center space-x-1 ">
