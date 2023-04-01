@@ -27,6 +27,7 @@ export default function AboutMe() {
               roots.
             </p>
           </div>
+          {/* click to learn more about my journey */}
         </div>
       </div>
     </>

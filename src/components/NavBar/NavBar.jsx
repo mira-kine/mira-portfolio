@@ -11,8 +11,8 @@ export default function NavBar() {
   return (
     <div
       className={classNames(
-        scrollPosition > 110 ? 'bg-opacity-80 text-charcoal' : 'bg-opacity-60',
-        'sticky top-0 z-20 bg-white bg-opacity-80 transition-shadow'
+        scrollPosition > 110 ? 'bg-none text-charcoal' : 'bg-opacity-60',
+        'sticky top-0 z-20 transition-shadow'
       )}
     >
       <div className="max-w-7xl mx-auto my-3 px-3 sm:px-6 ">

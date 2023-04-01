@@ -8,8 +8,8 @@ export default function Projects() {
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
         >
-          <p className="text-3xl sm:text-4xl lg:text-5xl tracking-wide text-charcoal z-20 font-garamond">
-            Here are some of my projects:
+          <p className="text-3xl sm:text-5xl lg:text-7xl tracking-wide text-charcoal z-20 font-handwrite">
+            Personal Projects:
           </p>
         </div>
         <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
