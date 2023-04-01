@@ -6,10 +6,10 @@ export default function Projects() {
       <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-7/8 md:flex-row mt-28 pt-12">
         <div
           aria-label="name-container"
-          className="flex flex-col justify-center py-8 px-8 z-10 w-full h-1/3 sm:text-center"
+          className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"
         >
-          <p className="text-3xl sm:text-5xl lg:text-7xl tracking-wide text-charcoal z-20 font-handwrite">
-            Personal Projects:
+          <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-10 px-2 sm:px-4 md:px-8 rounded-lg font-handwrite">
+            Personal Projects
           </p>
         </div>
         <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
