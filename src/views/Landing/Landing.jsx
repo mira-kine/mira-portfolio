@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <>
       <div
-        className="snap-center flex flex-col font-handwrite text-2xl md:text-4xl lg:text-6xl md:h-full w-7/8 lg:justify-start items-center align-center lg:mt-12 mx-12"
+        className="flex flex-col font-handwrite text-2xl md:text-4xl lg:text-6xl md:h-full w-7/8 lg:justify-start items-center align-center lg:mt-12 mx-12"
         name="about-me"
       >
         <span className="text-3xl sm:text-5xl lg:text-7xl bg-white py-10 px-2 sm:px-8 md:px-12 rounded-lg">
@@ -43,7 +43,7 @@ export default function Landing() {
           </div>
           {/* click to learn more about my journey */}
           <img
-            className="object-contain w-7/12 sm:w-6/12 md:w-4/12 rounded-full mx-8 my-8 lg:my-0"
+            className="animate-wiggle object-contain w-7/12 sm:w-6/12 md:w-4/12 rounded-full mx-8 my-8 lg:my-0"
             src="/assets/heart_wifi_icon.png"
             alt="mental health tech logo"
           />

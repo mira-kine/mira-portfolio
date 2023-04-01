@@ -9,7 +9,7 @@ export default function AboutMe() {
       >
         <div className="relative flex flex-col items-center justify-center w-full rounded-lg lg:flex-row text-charcoal">
           <img
-            className="object-contain w-7/12 sm:w-6/12 md:w-4/12 rounded-full mx-8 my-8 lg:my-0 bg-matcha/40"
+            className="animate-wiggle object-contain w-7/12 sm:w-6/12 md:w-4/12 rounded-full mx-8 my-8 lg:my-0 bg-matcha/40"
             src="/assets/mookie.png"
             alt="mira mookie logo"
           />
