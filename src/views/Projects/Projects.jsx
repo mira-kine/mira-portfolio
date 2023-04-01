@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="bg-lighterretro bg-cover bg-repeat-none flex flex-wrap flex-col justify-center align-center items-center h-full w-7/8 md:flex-row mt-28 pt-12">
+      <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-7/8 md:flex-row mt-28 pt-12">
         <div
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"
@@ -12,18 +12,18 @@ export default function Projects() {
             Personal Projects
           </p>
         </div>
-        <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row">
-          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-1/4 mx-10 my-12">
+        <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row gap-x-6">
+          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
             <img
               className="rounded-t-lg"
               src="/assets/tomoiru-web.png"
               alt="tomoiru web home page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-pink font-garamond">
                 Tomoiru-web
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond max-w-prose">
                 A fun way for friends to receive recommendations for what to do
                 and eat in Japan with an interface we all love.
               </p>
@@ -69,7 +69,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-1/4 mx-12 my-12">
+          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
             <img
               className="rounded-t-lg"
               src="/assets/shop-ade.png"
@@ -125,7 +125,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 min-h-1/4 mx-12 my-12">
+          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
             <img
               className="rounded-t-lg"
               src="/assets/goodjob.png"
@@ -137,7 +137,7 @@ export default function Projects() {
               </h5>
               <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
                 An app that supports early software developers in organizing
-                their job application process.
+                their job application process from start to finish.
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
@@ -181,7 +181,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="max-w-sm bg-white border-4 border-pink/50 rounded-lg shadow dark:bg-charcoal dark:border-white/50 h-min mx-12 my-12">
+          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
             <img
               className="rounded-t-lg"
               src="/assets/unspoken.png"

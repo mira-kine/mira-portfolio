@@ -18,7 +18,7 @@ export default function AboutMe() {
               My name is Mira -
             </p>
 
-            <p className="mb-3 text-white text-xl lg:text-2xl lg:max-w-3xl font-garamond leading-relaxed">
+            <p className="mb-3 text-white text-xl lg:text-2xl lg:max-w-3xl font-garamond leading-relaxed max-w-prose">
               I am a full stack software developer who cares about people and
               their stories. I am working to curate an accessible, equitable and
               soulful digital world. I also love creating and learning new
