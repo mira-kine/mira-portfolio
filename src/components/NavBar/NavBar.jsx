@@ -38,7 +38,7 @@ export default function NavBar() {
                 <a
                   href="https://www.instagram.com/mirakinebuchi"
                   target="_blank"
-                  className="text-black hover:text-blue"
+                  className="text-charcoal hover:text-pink"
                 >
                   <span className="sr-only">Instagram</span>
                   <svg
@@ -57,7 +57,7 @@ export default function NavBar() {
                 <a
                   href="https://www.twitter.com/mirakine_"
                   target="_blank"
-                  className="text-black hover:text-blue"
+                  className="text-charcoal hover:text-pink"
                 >
                   <span className="sr-only">Twitter</span>
                   <svg
@@ -72,7 +72,7 @@ export default function NavBar() {
                 <a
                   href="https://www.github.com/mira-kine"
                   target="_blank"
-                  className="text-black hover:text-blue"
+                  className="text-charcoal hover:text-pink"
                 >
                   <span className="sr-only">GitHub</span>
                   <svg
@@ -91,7 +91,7 @@ export default function NavBar() {
                 <a
                   href="https://www.linkedin.com/in/mira-kinebuchi/"
                   target="_blank"
-                  className="text-black hover:text-blue"
+                  className="text-charcoal hover:text-pink"
                 >
                   <span className="sr-only">LinkedIn</span>
                   <svg

@@ -12,15 +12,34 @@ export default function Landing() {
         </span>
         <div className="flex flex-col md:flex-row items-center justify-center w-full rounded-lg text-charcoal">
           <div className="flex flex-col pt-12">
-            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+            <a
+              href="https://www.w3.org/standards/webdesign/htmlcss"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
+              HTML/CSS
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
               Javascript
-            </span>
-            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+            </a>
+            <a
+              href="https://react.dev/"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
               React
-            </span>
-            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+            </a>
+            <a
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
               Typescript
-            </span>
+            </a>
           </div>
           {/* click to learn more about my journey */}
           <img
@@ -29,15 +48,34 @@ export default function Landing() {
             alt="mental health tech logo"
           />
           <div className="flex flex-col">
-            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+            <a
+              href="https://nodejs.org/en"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
               Node.js
-            </span>
-            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+            </a>
+            <a
+              href="https://expressjs.com/"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
               Express
-            </span>
-            <span className="font-handwrite text-3xl sm:text-4xl md:text-6xl">
+            </a>
+            <a
+              href="https://www.w3schools.com/sql/sql_intro.asp#:~:text=What%20is%20SQL%3F,for%20Standardization%20(ISO)%20in%201987"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
               SQL
-            </span>
+            </a>
+            <a
+              href="https://aws.amazon.com/"
+              target="_blank"
+              className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
+            >
+              AWS
+            </a>
           </div>
         </div>
       </div>
