@@ -9,7 +9,7 @@ export default function Projects() {
           className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"
         >
           <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-10 px-2 sm:px-4 md:px-8 rounded-lg font-handwrite">
-            Personal Projects
+            Projects
           </p>
         </div>
         <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row gap-x-6">
