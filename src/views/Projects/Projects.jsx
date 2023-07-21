@@ -29,7 +29,7 @@ export default function Projects() {
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
-                  href="https://tomoiru-web.netlify.app/"
+                  href="https://tomoiru-web.vercel.app/"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   Demo
