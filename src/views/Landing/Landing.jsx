@@ -13,11 +13,11 @@ export default function Landing() {
         <div className="flex flex-col md:flex-row items-center justify-center w-full rounded-lg text-charcoal">
           <div className="flex flex-col pt-12">
             <a
-              href="https://www.w3.org/standards/webdesign/htmlcss"
+              href="https://react.dev/"
               target="_blank"
               className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
             >
-              HTML/CSS
+              React
             </a>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -27,11 +27,11 @@ export default function Landing() {
               Javascript
             </a>
             <a
-              href="https://react.dev/"
+              href="https://nextjs.org/"
               target="_blank"
               className="font-handwrite text-3xl sm:text-4xl md:text-6xl hover:text-pink"
             >
-              React
+              Next.js
             </a>
             <a
               href="https://www.typescriptlang.org/"

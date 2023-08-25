@@ -9,7 +9,7 @@ export default function Projects() {
           className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"
         >
           <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-10 px-2 sm:px-4 md:px-8 rounded-lg font-handwrite">
-            Projects
+            Personal Projects
           </p>
         </div>
         <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row gap-x-6">
@@ -128,20 +128,20 @@ export default function Projects() {
           <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
             <img
               className="rounded-t-lg"
-              src="/assets/goodjob.png"
-              alt="goodjob.dev web home page"
+              src="/assets/huu.png"
+              alt="hack for LA home unites us web home page"
             />
             <div className="p-5">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
-                GoodJob.dev
+                Home Unites Us
               </h5>
               <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
-                An app that supports early software developers in organizing
-                their job application process from start to finish.
+                Open source project developing a web platform designed to
+                support and scale the host homes initiative in Los Angeles, CA.
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
-                  href="https://kind-haibt-83aacb.netlify.app/"
+                  href="https://dev.homeunite.us/"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   Demo
@@ -160,64 +160,7 @@ export default function Projects() {
                   </svg>
                 </a>
                 <a
-                  href="https://github.com/alchemy-job-app/job-app"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
-                >
-                  GitHub
-                  <svg
-                    aria-hidden="true"
-                    className="w-4 h-4 ml-2 -mr-1"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
-            <img
-              className="rounded-t-lg"
-              src="/assets/unspoken.png"
-              alt="unspoken web home page"
-            />
-            <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
-                Unspoken
-              </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
-                A place to write your stories, memories or unspoken words while
-                listening to lofi beats. Sometimes all you need is to write it
-                out.
-              </p>
-              <div className="flex justify-start gap-x-5">
-                <a
-                  href="https://unspokenstories.netlify.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
-                >
-                  Demo
-                  <svg
-                    aria-hidden="true"
-                    className="w-4 h-4 ml-2 -mr-1"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </a>
-                <a
-                  href="https://github.com/unspoken-project/unspoken"
+                  href="https://github.com/hackforla/HomeUniteUs"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
                 >
                   GitHub
