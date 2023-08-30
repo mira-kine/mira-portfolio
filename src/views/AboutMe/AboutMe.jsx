@@ -13,7 +13,7 @@ export default function AboutMe() {
             src="/assets/mookie.png"
             alt="mira mookie logo"
           />
-          <div className="flex flex-col p-4 leading-relaxed bg-charcoal">
+          <div className="flex flex-col p-4 leading-relaxed bg-charcoal rounded-xl shadow-lg">
             <p className="pb-2 mb-2 text-3xl md:text-5xl font-bold text-white font-garamond leading-relaxed">
               My name is Mira -
             </p>
