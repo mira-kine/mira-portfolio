@@ -3,7 +3,10 @@ import React from 'react';
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-7/8 md:flex-row mt-28 pt-12">
+      <div
+        id="project"
+        className="flex flex-wrap flex-col justify-center align-center items-center h-full w-7/8 md:flex-row mt-28 pt-12 snap snap-center"
+      >
         <div
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"

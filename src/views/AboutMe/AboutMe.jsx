@@ -4,7 +4,8 @@ export default function AboutMe() {
   return (
     <>
       <div
-        className="snap-center flex h-screen md:h-full w-7/8 lg:justify-start items-center align-center md:py-12 lg:py-28 lg:mt-12 mx-12"
+        id="aboutme"
+        className="snap snap-center flex h-screen md:h-full w-7/8 lg:justify-start items-center align-center md:py-12 lg:py-28 lg:mt-12 mx-12"
         name="about-me"
       >
         <div className="relative flex flex-col items-center justify-center w-full rounded-lg lg:flex-row text-charcoal">
