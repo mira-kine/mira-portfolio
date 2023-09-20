@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { useScrollPosition } from '../../hooks/usePosition';
 
-export default function NavBar() {
+export default function NavBar({ scrollPosition }) {
   const [showNav, setShowNav] = useState(false);
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ');
   }
 
-  const scrollPosition = useScrollPosition();
+  // const scrollPosition = useScrollPosition();
 
   return (
     <div
       className={classNames(
         scrollPosition > 110 ? 'bg-none text-charcoal' : 'bg-opacity-60',
-        'sticky top-0 z-20 transition-shadow'
+        'sticky top-0 z-50 transition-shadow'
       )}
     >
       <div className="max-w-7xl mx-auto my-3 px-3 sm:px-6">
@@ -23,7 +23,7 @@ export default function NavBar() {
             <h2
               className={classNames(
                 scrollPosition > 110 ? 'invisible' : 'visible',
-                'sticky top-0 z-20 transition-shadow text-4xl pt-6 rounded-lg text-charcoal font-handwrite'
+                'sticky top-0 z-20 transition-shadow text-2xl pt-6 rounded-lg text-charcoal font-handwrite'
               )}
             >
               Hi, I'm so glad you're here.

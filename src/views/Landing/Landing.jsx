@@ -4,11 +4,11 @@ export default function Landing() {
   return (
     <>
       <div
-        className="flex flex-col font-handwrite text-2xl md:text-4xl lg:text-6xl md:h-full w-7/8 lg:justify-start items-center align-center lg:mt-12 mx-12"
+        className="snap-start flex flex-col font-handwrite text-2xl md:text-4xl lg:text-6xl md:h-full w-7/8 lg:justify-start items-center content-center lg:mt-12 mx-12 mt-12"
         name="about-me"
       >
-        <span className="text-3xl sm:text-5xl lg:text-7xl bg-white py-10 px-2 sm:px-8 md:px-12 rounded-lg">
-          Current fav tech stack
+        <span className="flex text-3xl sm:text-5xl lg:text-7xl bg-white py-10 px-2 sm:px-8 md:px-12 rounded-lg items-center">
+          Current favorite tech stack
         </span>
         <div className="flex flex-col md:flex-row items-center justify-center w-full rounded-lg text-charcoal">
           <div className="flex flex-col pt-12">

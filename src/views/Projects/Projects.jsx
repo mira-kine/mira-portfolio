@@ -5,18 +5,18 @@ export default function Projects() {
     <>
       <div
         id="project"
-        className="flex flex-wrap flex-col justify-center align-center items-center h-full w-7/8 md:flex-row mt-28 pt-12 snap snap-center"
+        className="snap-start bg-cyan flex flex-wrap justify-center align-center items-center h-full w-7/8 md:flex-row pt-12"
       >
         <div
           aria-label="name-container"
-          className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"
+          className="flex flex-col justify-center px-2 sm:px-4 md:px-8 w-7/8 sm:text-center"
         >
-          <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-10 px-2 sm:px-4 md:px-8 rounded-lg font-handwrite">
+          <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-4 px-2 sm:px-4 md:px-8 rounded-lg font-handwrite">
             Personal Projects
           </p>
         </div>
-        <div className="flex flex-wrap flex-col justify-center align-center items-center h-full w-full md:flex-row gap-x-6">
-          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 my-12 bg-charcoal">
+        <div className="flex flex-wrap flex-col justify-center align-center items-center h-1/2 w-full md:flex-row gap-x-6">
+          <div className="max-w-sm min-h-sm bg-white border-4 border-pink/50 rounded-lg shadow h-1/4 mx-10 bg-charcoal">
             <img
               className="rounded-t-lg"
               src="/assets/tomoiru-web.png"
