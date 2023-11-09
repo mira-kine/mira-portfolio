@@ -51,6 +51,7 @@ module.exports = {
       },
     },
     colors: {
+      white: '#FFFF',
       light: '#D0DBCDff', // ash-gray
       dark: '1C1115ff', //dark brown
       primary: '#4DA5B9ff', //teal blue
