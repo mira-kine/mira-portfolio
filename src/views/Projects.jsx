@@ -8,7 +8,7 @@ export default function Projects() {
           aria-label="name-container"
           className="flex flex-col justify-center py-8 px-2 sm:px-4 md:px-8 w-7/8 h-1/3 sm:text-center"
         >
-          <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-10 px-2 sm:px-4 md:px-8 rounded-lg font-handwrite">
+          <p className="text-3xl sm:text-5xl lg:text-7xl text-charcoal bg-white py-10 px-2 sm:px-4 md:px-8 rounded-lg font-sans">
             Personal Projects
           </p>
         </div>
@@ -20,17 +20,17 @@ export default function Projects() {
               alt="tomoiru web home page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-pink font-garamond">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-pink font-sans">
                 Tomoiru-web
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond max-w-prose">
+              <p className="mb-3 font-normal text-charcoal font-sans max-w-prose">
                 A fun way for friends to receive recommendations for what to do
                 and eat in Japan with an interface we all love.
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://tomoiru-web.vercel.app/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-sans"
                 >
                   Demo
                   <svg
@@ -49,7 +49,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/mira-kine/tomoiru-web"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-sans"
                 >
                   GitHub
                   <svg
@@ -76,17 +76,17 @@ export default function Projects() {
               alt="shop-ade title page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-sans">
                 Shop-Ade
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-sans">
                 A retro arcade themed smart shopping list app that learns and
                 predicts your buying habits for an easier shoppers experience!
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://tcl-45-smart-shopping-list.firebaseapp.com/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-sans"
                 >
                   Demo
                   <svg
@@ -105,7 +105,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-sans"
                 >
                   GitHub
                   <svg
@@ -132,17 +132,17 @@ export default function Projects() {
               alt="hack for LA home unites us web home page"
             />
             <div className="p-5">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-garamond">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-charcoal dark:text-pink font-sans">
                 Home Unites Us
               </h5>
-              <p className="mb-3 font-normal text-charcoal dark:text-white font-garamond">
+              <p className="mb-3 font-normal text-charcoal dark:text-white font-sans">
                 Open source project developing a web platform designed to
                 support and scale the host homes initiative in Los Angeles, CA.
               </p>
               <div className="flex justify-start gap-x-5">
                 <a
                   href="https://dev.homeunite.us/"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-sans"
                 >
                   Demo
                   <svg
@@ -161,7 +161,7 @@ export default function Projects() {
                 </a>
                 <a
                   href="https://github.com/hackforla/HomeUniteUs"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-garamond"
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-matcha bg-cyan font-sans"
                 >
                   GitHub
                   <svg

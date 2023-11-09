@@ -2,10 +2,7 @@ import React from 'react';
 
 export default function ContactForm() {
   return (
-    <div
-      className="snap-center flex flex-col h-screen overflow-hidden"
-      name="contact"
-    >
+    <div className="flex flex-col h-screen overflow-hidden" name="contact">
       <div className="flex flex-col md:flex-row justify-center md:space-y-0 space-y-4 h-screen w-screen content-center items-center">
         <div className="rounded-xl bg-matcha px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8 h-3/5 max-w-10/12 pb-8">
           <div className="text-charcoal flex flex-col text-center">
@@ -15,7 +12,7 @@ export default function ContactForm() {
                 width="150"
                 alt="profile pic with sunflower"
               />
-              <h1 className="m-2 text-3xl text-charcoal font-handwrite">
+              <h1 className="m-2 text-3xl text-charcoal font-sans">
                 Let's connect!
               </h1>
             </div>
@@ -28,7 +25,7 @@ export default function ContactForm() {
                 <a
                   href="https://www.linkedin.com/in/mira-kinebuchi/"
                   target="_blank"
-                  className="text-white font-handwrite text-2xl"
+                  className="text-white font-sans text-2xl"
                 >
                   LinkedIn
                 </a>
@@ -42,7 +39,7 @@ export default function ContactForm() {
                 <a
                   href="https://github.com/mira-kine"
                   target="_blank"
-                  className="text-white font-handwrite text-2xl"
+                  className="text-white font-sans text-2xl"
                 >
                   GitHub
                 </a>
@@ -56,7 +53,7 @@ export default function ContactForm() {
                 <a
                   href="https://www.twitter.com/mirakine_"
                   target="_blank"
-                  className="text-white font-handwrite text-2xl"
+                  className="text-white font-sans text-2xl"
                 >
                   Twitter
                 </a>
