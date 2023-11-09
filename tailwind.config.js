@@ -7,7 +7,7 @@ module.exports = {
       tablet: '768px',
       laptop: '1024px',
       desktop: '1280px',
-      xl: '1700px',
+      xl: '1780px',
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],

@@ -2,9 +2,10 @@ import React from 'react';
 // import TechStack from './TechStack';
 import Landing from './Landing';
 import Hero from './Hero';
-import Projects from './Projects';
+import ProjectsList from './ProjectsList';
 import Contact from './Contact';
 import AboutMe from './AboutMe';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       <AboutMe />
       {/* <TechStack /> */}
       <Landing />
-      <Projects />
-      <Contact />
+      <ProjectsList />
+      {/* <Contact /> */}
+      <Footer />
     </div>
   );
 }

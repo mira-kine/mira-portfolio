@@ -4,7 +4,7 @@ export default function RightArrowIcon() {
   return (
     <svg
       aria-hidden="true"
-      className="w-4 h-4 ml-2 -mr-1"
+      className="w-4 h-4 ml-2 -mr-1 hidden tablet:flex tablet:flex-row"
       fill="currentColor"
       viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg"
