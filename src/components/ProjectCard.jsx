@@ -7,7 +7,7 @@ export default function ProjectCard({
   children,
 }) {
   return (
-    <div className="min-h-[450px] w-10/12 bg-white/70 border-4 border-secondary rounded-lg shadow-2xl mx-10 my-12">
+    <div className="min-h-[450px] w-10/12 bg-white/70 border-4 border-secondary rounded-lg shadow-2xl mx-4 my-12">
       <img
         className="h-[200px] w-full object-cover"
         src={`/assets/${imagePath}.png`}

@@ -1,6 +1,22 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Journey from '../components/Journey';
+import FadeInView from '../components/FadeInView';
+
+const variants = {
+  hidden: {
+    opacity: 0,
+    y: 75,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.5,
+      delay: 0.5,
+    },
+  },
+};
 
 export default function Landing() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +26,10 @@ export default function Landing() {
       <div className="text-black font-title text-4xl p-4">
         My Journey in a nutshell:
       </div>
-      <motion.div className="flex flex-col justify-center items-center">
+      <div
+        variants={variants}
+        className="flex flex-col justify-center items-center"
+      >
         {isOpen ? (
           <>
             <motion.button
@@ -37,7 +56,7 @@ export default function Landing() {
             <span className="p-8">Hint: click the nutshell!</span>
           </>
         )}
-      </motion.div>
+      </div>
     </div>
   );
 }
