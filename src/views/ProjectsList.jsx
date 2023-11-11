@@ -1,5 +1,4 @@
 import React from 'react';
-import RightArrowIcon from '../icons/RightArrowIcon';
 import ProjectLink from '../styles/ProjectLink';
 import ProjectCard from '../components/ProjectCard';
 import ProjectButton from '../styles/ProjectButton';

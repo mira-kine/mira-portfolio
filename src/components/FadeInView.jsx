@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
   
-
-export default function FadeInView({children, variants}) {
-    const ref = useRef(null);
+// all Fade In View will have hidden and visible props. But sometimes I want them to translate differently.
+  // ... so I set a general animateProps as well
+export default function FadeInView({children, variants, animateProps}) {
+  const ref = useRef(null);
   // only run animation once
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
@@ -19,8 +20,8 @@ export default function FadeInView({children, variants}) {
       <motion.div
         variants={variants}
         initial="hidden"
-        animate="visible"
-        transition={{ duration: 1.5, delay: 0.5 }}>
+      animate={animateProps}
+        >
           {children}
       </motion.div>
   )

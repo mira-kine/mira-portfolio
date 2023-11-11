@@ -12,8 +12,8 @@ const variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1.5,
-      delay: 0.5,
+      duration: 1.25,
+      delay: 0.75,
     },
   },
 };
@@ -22,10 +22,12 @@ export default function Landing() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center">
-      <div className="text-black font-title text-4xl p-4">
-        My Journey in a nutshell:
-      </div>
+    <div className="w-full h-full flex flex-col justify-center items-center p-8">
+      <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
+        <p className="text-black font-title text-4xl p-4 text-center">
+          My Journey in a nutshell:{' '}
+        </p>
+      </FadeInView>
       <div
         variants={variants}
         className="flex flex-col justify-center items-center"

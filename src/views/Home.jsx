@@ -7,6 +7,8 @@ import ProjectsList from './ProjectsList';
 import AboutMe from './AboutMe';
 import Footer from '../components/Footer';
 
+// framer motion does not take classNames as prop, but can take styles component. To not confuse, use twin.macro instead.
+// Can read about twin.macro here: https://github.com/ben-rogerson/twin.macro
 export default function Home() {
   return (
     <div className="main-container h-full w-full bg-white">

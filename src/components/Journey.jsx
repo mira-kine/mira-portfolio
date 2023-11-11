@@ -10,21 +10,24 @@ const variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1.5,
-      delay: 0.5,
+      duration: 1.75,
+      delay: 0.25,
     },
   },
 };
 
 export default function Journey() {
   return (
-    <>
-      <FadeInView variants={variants}>
-        <p>Biopsychology</p>
+    <div>
+      <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
+        <p>
+          As many others, I thought I'd become a doctor. So I majored in
+          Biopsychology, Cognition and Neuroscience
+        </p>
       </FadeInView>
-      <FadeInView variants={variants}>
+      <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
         <p>Childhood in Japan</p>
       </FadeInView>
-    </>
+    </div>
   );
 }

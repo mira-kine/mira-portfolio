@@ -11,21 +11,22 @@ const variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1.5,
+      duration: 2,
       delay: 0.5,
     },
+    
   },
 };
 
 export default function AboutMe() {
   return (
     <div className="bg-light flex flex-col laptop:flex-row w-full h-full py-12 justify-center">
-      <FadeInView variants={variants} className="w-full h-1/3 flex flex-col justify-end py-2 laptop:px-8 tablet:ml-4 tablet:border">
+      <FadeInView variants={variants} animateProps={('hidden', 'visible')} className="w-full h-1/3 flex flex-col justify-end py-2 laptop:px-8 tablet:ml-4 tablet:border">
         <h2 className="font-title text-7xl tablet:text-8xl laptop:text-9xl px-4 text-dark">
           My name is Mira-
         </h2>
       </FadeInView>
-      <FadeInView variants={variants} className="flex flex-col justify-center items-center bg-secondary p-8">
+      <FadeInView variants={variants} animateProps={('hidden', 'visible')} className="flex flex-col justify-center items-center bg-secondary p-8">
         <p className="font-sans text-lg tablet:text-2xl">
           and I am a full stack software developer who cares about people and
           their stories. I want to help curate an accessible, equitable and
