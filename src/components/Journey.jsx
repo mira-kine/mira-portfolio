@@ -18,8 +18,18 @@ export default function Journey() {
     <>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 75 },
-          visible: { opacity: 1, y: 0 },
+          hidden: {
+            opacity: 0,
+            y: 75,
+          },
+          visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 2,
+              delay: 0.5,
+            },
+          },
         }}
         initial="hidden"
         animate="visible"

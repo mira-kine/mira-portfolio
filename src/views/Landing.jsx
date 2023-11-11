@@ -10,26 +10,34 @@ export default function Landing() {
       <div className="text-black font-title text-4xl p-4">
         My Journey in a nutshell:
       </div>
-      <div className="flex flex-col justify-center items-center m-4">
-        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-          <button onClick={() => setIsOpen((isOpen) => !isOpen)}>
-            {isOpen ? (
-              <>
-                <img src="./assets/open_nutshell.png" alt="open walnut shell" />
-                <Journey />
-              </>
-            ) : (
-              <>
-                <img
-                  src="./assets/closed_nutshell.png"
-                  alt="closed walnut shell"
-                />
-                <span className="p-8">Hint: click the nutshell!</span>
-              </>
-            )}
-          </button>
-        </motion.div>
-      </div>
+      <motion.div className="flex flex-col justify-center items-center">
+        {isOpen ? (
+          <>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => setIsOpen((isOpen) => !isOpen)}
+            >
+              <img src="./assets/open_nutshell.png" alt="open walnut shell" />
+            </motion.button>
+            <Journey />
+          </>
+        ) : (
+          <>
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => setIsOpen((isOpen) => !isOpen)}
+            >
+              <img
+                src="./assets/closed_nutshell.png"
+                alt="closed walnut shell"
+              />
+            </motion.button>
+            <span className="p-8">Hint: click the nutshell!</span>
+          </>
+        )}
+      </motion.div>
     </div>
   );
 }
