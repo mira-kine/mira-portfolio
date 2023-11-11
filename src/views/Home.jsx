@@ -3,7 +3,7 @@ import React from 'react';
 import Landing from './Landing';
 import Hero from './Hero';
 import ProjectsList from './ProjectsList';
-import Contact from './Contact';
+// import Contact from './Contact';
 import AboutMe from './AboutMe';
 import Footer from '../components/Footer';
 

@@ -7,7 +7,7 @@ import ProjectButton from '../styles/ProjectButton';
 export default function ProjectsList() {
   return (
     <>
-      <div className="flex flex-col flex-wrap justify-center items-center h-full w-full py-4 pb-8 my-4 mb-0 tablet:flex-row bg-primary_light">
+      <div className="flex flex-col flex-wrap justify-center items-center h-full w-full py-4 pb-12  my-4 mb-0 tablet:flex-row bg-primary_light">
         <div
           aria-label="name-container"
           className="flex flex-col justify-center pt-4 px-2 tablet:px-8 w-7/8 h-1/3"
@@ -74,9 +74,6 @@ export default function ProjectsList() {
             <ProjectButton></ProjectButton>
           </ProjectCard>
         </div>
-        <button className="bg-white p-2 rounded-lg text-xl">
-          Click to see more
-        </button>
       </div>
     </>
   );
