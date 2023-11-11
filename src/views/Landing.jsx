@@ -2,17 +2,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Journey from '../components/Journey';
 
-const variants = {
-  open: {
-    opacity: 1,
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 },
-  },
-  closed: {
-    opacity: 1,
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 },
-  },
-};
-
 export default function Landing() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -22,7 +11,7 @@ export default function Landing() {
         My Journey in a nutshell:
       </div>
       <div className="flex flex-col justify-center items-center m-4">
-        <motion.div animate={isOpen ? 'open' : 'close'} variants={variants}>
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
           <button onClick={() => setIsOpen((isOpen) => !isOpen)}>
             {isOpen ? (
               <>
