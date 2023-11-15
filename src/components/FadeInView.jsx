@@ -17,6 +17,7 @@ export default function FadeInView({children, variants, animateProps}) {
   }, [isInView]);
     
   return (
+    <div ref={ref}>
       <motion.div
         variants={variants}
         initial="hidden"
@@ -24,5 +25,6 @@ export default function FadeInView({children, variants, animateProps}) {
         >
           {children}
       </motion.div>
+    </div>
   )
 }

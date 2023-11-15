@@ -20,13 +20,17 @@ export default function Journey() {
   return (
     <div>
       <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
-        <p>
-          As many others, I thought I'd become a doctor. So I majored in
-          Biopsychology, Cognition and Neuroscience
-        </p>
+        <p></p>
       </FadeInView>
       <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
-        <p>Childhood in Japan</p>
+        <div className="p-12">
+          <p>Childhood in Japan</p>
+        </div>
+        <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
+          <div className="p-12 m-12">
+            <p>Biopsychology Cognition Neuroscience</p>--
+          </div>
+        </FadeInView>
       </FadeInView>
     </div>
   );
