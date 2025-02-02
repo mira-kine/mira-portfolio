@@ -1,12 +1,17 @@
 module.exports = {
-  content: [
-    './src/**/*.{html,js,jsx}',
-    './node_modules/tw-elements/dist/js/**/*.js',
-  ],
+  content: ['./src/**/*.{html,js,jsx}'],
   theme: {
+    screens: {
+      xs: '480px',
+      mobile: '640px',
+      tablet: '768px',
+      laptop: '1024px',
+      desktop: '1280px',
+      xl: '1780px',
+    },
     fontFamily: {
-      garamond: ['EB Garamond', 'serif'],
-      handwrite: ['Gaegu', 'cursive'],
+      sans: ['Montserrat', 'sans-serif'],
+      title: ['Playfair Display', 'serif'],
     },
     extend: {
       backgroundImage: {
@@ -46,16 +51,18 @@ module.exports = {
       },
     },
     colors: {
-      white: '#FBFBFB',
-      charcoal: '#2C3F4Bff',
-      pink: '#D69496',
-      cyan: '#469B9E',
-      matcha: '#AAB08A',
-      sand: '#F0E5D8',
+      white: '#FFFF',
+      light: '#D0DBCDff', // ash-gray
+      dark: '1C1115ff', //dark brown
+      primary: '#4DA5B9ff', //teal blue
+      primary_light: '#A3C1C9ff', // light blue
+      secondary: '#581A1Fff', // burgundy
+      secondary_light: '#7C4C4Cff', // rose pink
+      accent1: '#648153ff', //green
     },
     variants: {
       animation: ['motion-safe'],
     },
   },
-  plugins: [require('tw-elements/dist/plugin')],
+  plugins: [],
 };
