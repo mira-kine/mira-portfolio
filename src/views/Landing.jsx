@@ -22,7 +22,7 @@ export default function Landing() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full h-full flex flex-col justify-center items-center p-8">
+    <div className="w-full min-h-screen flex flex-col justify-center items-center p-8 relative overflow-hidden">
       <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
         <p className="text-black font-title text-4xl p-4 text-center">
           My Journey in a nutshell:{' '}
@@ -30,34 +30,26 @@ export default function Landing() {
       </FadeInView>
       <div
         variants={variants}
-        className="flex flex-col justify-center items-center"
+        className="flex flex-col justify-center items-center relative z-10"
       >
-        {isOpen ? (
-          <>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => setIsOpen((isOpen) => !isOpen)}
-            >
-              <img src="./assets/open_nutshell.png" alt="open walnut shell" />
-            </motion.button>
-            <Journey />
-          </>
-        ) : (
-          <>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => setIsOpen((isOpen) => !isOpen)}
-            >
-              <img
-                src="./assets/closed_nutshell.png"
-                alt="closed walnut shell"
-              />
-            </motion.button>
-            <span className="p-8">Hint: click the nutshell!</span>
-          </>
-        )}
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={() => setIsOpen((isOpen) => !isOpen)}
+          className="relative"
+        >
+          <img
+            src={isOpen ? "./assets/open_nutshell.png" : "./assets/closed_nutshell.png"}
+            alt={isOpen ? "open walnut shell" : "closed walnut shell"}
+          />
+        </motion.button>
+        {!isOpen && <span className="p-8">Hint: click the nutshell!</span>}
+        
+        {/* Red Carpet Journey Component */}
+        <Journey 
+          onImageClick={() => setIsOpen(false)} 
+          isTriggered={isOpen} 
+        />
       </div>
     </div>
   );

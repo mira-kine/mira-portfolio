@@ -1,0 +1,1 @@
+- I like the idea but I also wanted to see an explanation for how you crafted your to do list. Can you also show me your to do list every single time?
