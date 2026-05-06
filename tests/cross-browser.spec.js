@@ -236,9 +236,9 @@ test.describe('Cross-Browser Compatibility', () => {
         
         // Get memory usage if available
         const memoryInfo = await page.evaluate(() => {
-          return (performance as any).memory ? {
-            usedJSHeapSize: (performance as any).memory.usedJSHeapSize,
-            totalJSHeapSize: (performance as any).memory.totalJSHeapSize
+          return performance.memory ? {
+            usedJSHeapSize: performance.memory.usedJSHeapSize,
+            totalJSHeapSize: performance.memory.totalJSHeapSize
           } : null;
         });
         
