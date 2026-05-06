@@ -39,17 +39,18 @@ export default function Landing() {
           className="relative"
         >
           <img
-            src={isOpen ? "./assets/open_nutshell.png" : "./assets/closed_nutshell.png"}
-            alt={isOpen ? "open walnut shell" : "closed walnut shell"}
+            src={
+              isOpen
+                ? './assets/open_nutshell.png'
+                : './assets/closed_nutshell.png'
+            }
+            alt={isOpen ? 'open walnut shell' : 'closed walnut shell'}
           />
         </motion.button>
         {!isOpen && <span className="p-8">Hint: click the nutshell!</span>}
-        
+
         {/* Red Carpet Journey Component */}
-        <Journey 
-          onImageClick={() => setIsOpen(false)} 
-          isTriggered={isOpen} 
-        />
+        <Journey onImageClick={() => setIsOpen(false)} isTriggered={isOpen} />
       </div>
     </div>
   );
