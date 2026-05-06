@@ -8,69 +8,92 @@ const journeyItems = [
   'Software Engineer',
 ];
 
-const redCarpetVariants = {
-  hidden: { 
-    scaleY: 0,
-    originY: 0
+const timelineVariants = {
+  hidden: {
+    height: 0,
   },
-  visible: { 
-    scaleY: 1,
-    transition: { 
-      duration: 1.2, 
-      ease: "easeOut" 
-    }
-  }
+  visible: {
+    height: '100%',
+    transition: {
+      duration: 1.0,
+      ease: 'easeOut',
+    },
+  },
 };
 
 const journeyItemVariants = {
-  hidden: { 
-    opacity: 0, 
-    y: 50,
-    scale: 0.8
+  hidden: {
+    opacity: 0,
+    x: -50,
+    scale: 0.8,
   },
-  visible: { 
-    opacity: 1, 
-    y: 0,
+  visible: {
+    opacity: 1,
+    x: 0,
     scale: 1,
-    transition: { 
-      duration: 0.8,
-      ease: "easeOut"
-    }
-  }
+    transition: {
+      duration: 0.6,
+      ease: 'easeOut',
+    },
+  },
+};
+
+const dotVariants = {
+  hidden: {
+    scale: 0,
+  },
+  visible: {
+    scale: 1,
+    transition: {
+      duration: 0.4,
+      ease: 'backOut',
+    },
+  },
 };
 
 const containerVariants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.4,
-      delayChildren: 1.2 // Wait for carpet to roll out
-    }
-  }
+      staggerChildren: 0.3,
+      delayChildren: 0.5,
+    },
+  },
 };
 
 export default function Journey({ onImageClick, isTriggered }) {
   return (
     <AnimatePresence>
       {isTriggered && (
-        <motion.div 
-          className="absolute top-0 left-0 right-0 z-20 flex items-end justify-center pointer-events-none"
+        <motion.div
+          className="relative w-full max-w-2xl mt-8 px-4 pointer-events-auto"
           initial="hidden"
           animate="visible"
           exit="hidden"
         >
-          {/* Red Carpet Roll Out */}
-          <motion.div
-            variants={redCarpetVariants}
-            className="relative w-72 sm:w-80 md:w-96 h-96 sm:h-[500px] md:h-[600px] bg-gradient-to-t from-red-800 via-red-600 to-red-700 shadow-2xl border-l-4 border-r-4 border-t-2 border-red-900 rounded-t-lg"
+          <motion.button
+            onClick={onImageClick}
+            className="absolute -top-4 right-4 bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg hover:bg-primary_light hover:text-dark transition-colors z-30"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
           >
-            {/* Carpet Tassels */}
-            <div className="absolute -top-2 left-0 right-0 h-4 bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600 rounded-sm"></div>
-            
-            {/* Journey Items Container */}
+            ✕
+          </motion.button>
+
+          <div className="relative pl-8 md:pl-12">
+            <div className="absolute left-4 md:left-6 top-0 bottom-0 w-0.5 bg-gray-300 overflow-hidden">
+              <motion.div
+                variants={timelineVariants}
+                className="w-full bg-gradient-to-b from-primary via-primary_light to-primary"
+              />
+            </div>
+
             <motion.div
               variants={containerVariants}
-              className="absolute inset-0 flex flex-col justify-end p-8 space-y-6"
+              className="space-y-8 md:space-y-12"
             >
               {journeyItems.map((item, index) => (
                 <motion.div
@@ -78,39 +101,20 @@ export default function Journey({ onImageClick, isTriggered }) {
                   variants={journeyItemVariants}
                   className="relative"
                 >
-                  {/* Journey Card */}
-                  <div className="bg-gradient-to-br from-amber-50 via-amber-100 to-amber-200 
-                                 border-2 border-amber-400 rounded-lg p-4 
-                                 shadow-2xl transform rotate-1 hover:rotate-0
-                                 transition-transform duration-300
-                                 text-center font-medium text-amber-900
-                                 relative overflow-hidden">
-                    {/* Gold sparkle effect */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-yellow-200 via-transparent to-transparent opacity-30"></div>
-                    
-                    <div className="relative z-10">
+                  <motion.div
+                    variants={dotVariants}
+                    className="absolute -left-[1.35rem] md:-left-[1.85rem] top-3 w-4 h-4 rounded-full bg-primary border-4 border-white shadow-lg z-10"
+                  />
+
+                  <div className="bg-white border-2 border-primary rounded-lg p-4 md:p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
+                    <p className="text-dark font-sans text-base md:text-lg pr-4">
                       {item}
-                    </div>
-                    
-                    {/* Step number */}
-                    <div className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center shadow-lg border-2 border-yellow-300">
-                      {index + 1}
-                    </div>
+                    </p>
                   </div>
                 </motion.div>
               ))}
             </motion.div>
-
-            {/* Click to close */}
-            <motion.button
-              onClick={onImageClick}
-              className="absolute top-4 right-4 bg-red-800 text-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg hover:bg-red-700 transition-colors pointer-events-auto"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              ✕
-            </motion.button>
-          </motion.div>
+          </div>
         </motion.div>
       )}
     </AnimatePresence>

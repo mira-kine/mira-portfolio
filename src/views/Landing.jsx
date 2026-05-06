@@ -22,7 +22,7 @@ export default function Landing() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full min-h-screen flex flex-col justify-center items-center p-8 relative overflow-hidden">
+    <div className="w-full min-h-screen flex flex-col justify-center items-center p-8">
       <FadeInView variants={variants} animateProps={('hidden', 'visible')}>
         <p className="text-black font-title text-4xl p-4 text-center">
           My Journey in a nutshell:{' '}
@@ -30,7 +30,7 @@ export default function Landing() {
       </FadeInView>
       <div
         variants={variants}
-        className="flex flex-col justify-center items-center relative z-10"
+        className="flex flex-col justify-center items-center w-full"
       >
         <motion.button
           whileHover={{ scale: 1.1 }}
@@ -49,7 +49,6 @@ export default function Landing() {
         </motion.button>
         {!isOpen && <span className="p-8">Hint: click the nutshell!</span>}
 
-        {/* Red Carpet Journey Component */}
         <Journey onImageClick={() => setIsOpen(false)} isTriggered={isOpen} />
       </div>
     </div>
