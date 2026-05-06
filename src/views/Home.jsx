@@ -14,8 +14,8 @@ export default function Home() {
     <div className="main-container h-full w-full bg-white">
       <Hero />
       <AboutMe />
-      {/* <TechStack /> */}
       <Landing />
+      {/* <TechStack /> */}
       <ProjectsList />
       {/* <Contact /> */}
       <Footer />
