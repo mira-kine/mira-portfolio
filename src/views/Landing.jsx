@@ -33,9 +33,10 @@ export default function Landing() {
         className="flex flex-col justify-center items-center w-full"
       >
         <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={() => setIsOpen((isOpen) => !isOpen)}
+          whileHover={!isOpen ? { scale: 1.1 } : {}}
+          whileTap={!isOpen ? { scale: 0.9 } : {}}
+          onClick={() => setIsOpen(true)}
+          aria-label="Reveal my career journey"
           className="relative"
         >
           <img
@@ -49,7 +50,7 @@ export default function Landing() {
         </motion.button>
         {!isOpen && <span className="p-8">Hint: click the nutshell!</span>}
 
-        <Journey onImageClick={() => setIsOpen(false)} isTriggered={isOpen} />
+        <Journey isTriggered={isOpen} />
       </div>
     </div>
   );

@@ -36,25 +36,6 @@ export default function ProjectsList() {
           </ProjectCard>
 
           <ProjectCard
-            imagePath="shop-ade"
-            projectTitle="Shop-Ade"
-            description="A retro arcade themed smart shopping list app that learns and
-            predicts your buying habits for an easier shoppers experience!"
-          >
-            <ProjectLink
-              href="https://tcl-45-smart-shopping-list.firebaseapp.com/"
-              title="Demo"
-            ></ProjectLink>
-
-            <ProjectLink
-              href="https://github.com/the-collab-lab/tcl-45-smart-shopping-list"
-              title="GitHub"
-            ></ProjectLink>
-
-            <ProjectButton></ProjectButton>
-          </ProjectCard>
-
-          <ProjectCard
             imagePath="huu"
             projectTitle="Home Unites Us"
             description="Open source project developing a web platform designed to
